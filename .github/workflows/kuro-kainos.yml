@@ -1,0 +1,67 @@
+name: Kuro kainos
+
+on:
+  schedule:
+    - cron: "23 6 * * *"    # ~09:23 Lietuvos laiku
+    - cron: "23 14 * * *"   # ~17:23 Lietuvos laiku
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["robotas.py", "requirements.txt", ".github/workflows/kuro-kainos.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kuro-kainos
+  cancel-in-progress: false
+
+jobs:
+  atnaujinti:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt pytest
+
+      - name: Testai
+        run: python -m pytest -q tests
+
+      - name: Ankstesni duomenys (šaka „data“)
+        run: |
+          if git ls-remote --exit-code --heads origin data >/dev/null; then
+            git fetch --depth=1 origin data:refs/remotes/origin/data
+            git worktree add -B data data origin/data
+          else
+            git init -q -b data data
+          fi
+
+      - name: Paleisti robotą
+        run: python robotas.py --out data/fuel.json --cache data/geocache.json
+
+      - name: Paskelbti (ir tada, kai robotas atmetė rezultatą – kad neprarastume rastų koordinačių)
+        if: always()
+        working-directory: data
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          ls fuel.json geocache.json 2>/dev/null || { echo "Nėra ką skelbti"; exit 0; }
+          cat > README.md <<'MD'
+          # Kuro kainos (automatiškai)
+
+          `fuel.json` kasdien atnaujina robotas (žr. šaką `main`). Kainų šaltinis –
+          **Lietuvos energetikos agentūra (LEA)** ir degalines valdančios įmonės
+          (įmonės pavadinimas – masyve `L`). Koordinatės – © OpenStreetMap bendraautoriai, ODbL.
+          MD
+          git config user.name "kuro-robotas"
+          git config user.email "kuro-robotas@users.noreply.github.com"
+          git add README.md $(ls fuel.json geocache.json 2>/dev/null)
+          if git diff --cached --quiet; then echo "Pakeitimų nėra"; exit 0; fi
+          git commit -q -m "Kuro kainos $(date -u '+%F %H:%M') UTC"
+          git push -q "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:data
