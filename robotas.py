@@ -29,13 +29,13 @@ NOMINATIM = "https://nominatim.openstreetmap.org/search"
 OVERPASS = "https://overpass-api.de/api/interpreter"
 OVERPASS_URLS = [OVERPASS, "https://overpass.private.coffee/api/interpreter",
                  "https://maps.mail.ru/osm/tools/overpass/api/interpreter"]
-APPROX = {"adresas": 0.4, "pasto-kodas": 1.5, "gyvenviete": 2.5}  # km, kiek toli ieškoti to paties tinklo OSM degalinės
+APPROX = {"adresas": 0.4, "gatve": 1.5, "pasto-kodas": 1.5, "gyvenviete": 2.5}  # km, kiek toli ieškoti to paties tinklo OSM degalinės
 USER_AGENT = "ManoGarazas-kuro-robotas/1.0 (+https://github.com/andrius3213/kuro-kainos)"
 
 FUELS = {"95 benzinas": 0, "dyzelinas": 1, "snd": 2}  # indeksai: 95, dyzelinas, dujos (LPG)
 KEEP_DAYS = 45          # degalinė įtraukiama, jei kainas teikė per paskutines N dienų
 RETRY_NONE_DAYS = 30    # nerastus adresus bandyti iš naujo po N dienų
-GEO_V = 2               # paieškos būdo versija: pakeitus būdą, nerasti adresai bandomi iš naujo
+GEO_V = 3               # paieškos būdo versija: pakeitus būdą, nerasti adresai bandomi iš naujo
 MIN_STATIONS = 300      # saugiklis: mažiau – tikriausiai sugedo failas
 
 BRANDS = {  # teisinis pavadinimas (be UAB/AB) -> trumpas, žinomas pavadinimas
@@ -338,23 +338,36 @@ class Geocoder:
             return round(best["lat"], 6), round(best["lng"], 6)
         return None
 
-    def nominatim(self, params) -> tuple[float, float] | None:
+    def nominatim(self, params) -> tuple[float, float, int, str] | None:
+        """Grąžina (platuma, ilguma, tikslumo rangas, adreso tekstas). Rangas 30 – namas, 26 – gatvė, <=20 – gyvenvietė."""
         if self.lookups >= self.max_lookups:
             raise LookupError("viršytas paieškų skaičius šiam paleidimui")
         self.lookups += 1
         q = {"q": params} if isinstance(params, str) else dict(params)
-        q.update({"format": "jsonv2", "countrycodes": "lt", "limit": 1})
+        q.update({"format": "jsonv2", "countrycodes": "lt", "limit": 1, "addressdetails": 1})
         res = self.fetch_json(NOMINATIM, q)
         self.sleep(1.1)  # Nominatim taisyklė: ne daugiau kaip 1 užklausa per sekundę
-        return (float(res[0]["lat"]), float(res[0]["lon"])) if res else None
+        if not res:
+            return None
+        r = res[0]
+        return (float(r["lat"]), float(r["lon"]), int(r.get("place_rank") or 30),
+                fold(" ".join(str(v) for v in (r.get("address") or {}).values())))
+
+    @staticmethod
+    def in_mun(addr_text: str, mun: str) -> bool:
+        """Ar rasta vieta yra toje savivaldybėje, kurią nurodo LEA (saugo nuo bendravardžių kaimų)."""
+        w = key_word(mun)
+        if not w or not addr_text:
+            return True
+        return w[: max(4, len(w) - 2)] in addr_text
 
     def needs_lookup(self, hit: dict | None) -> bool:
         if not hit:
             return True
+        if hit.get("v", 1) < GEO_V:
+            return True  # senesnio, mažiau patikimo paieškos būdo rezultatas
         q = hit.get("q")
         if q in ("none", "savivaldybe"):
-            if hit.get("v", 1) < GEO_V:
-                return True
             age = (self.today - dt.date.fromisoformat(hit.get("t", "2000-01-01"))).days
             return age >= RETRY_NONE_DAYS
         return False
@@ -363,7 +376,7 @@ class Geocoder:
         key = f"{st['company']}|{st['mun']}|{st['addr']}"
         hit = self.cache.get(key)
         t = self.today.isoformat()
-        if hit and hit.get("q") in APPROX and not hit.get("o") and self.fuel_points():
+        if hit and hit.get("v", 1) >= GEO_V and hit.get("q") in APPROX and not hit.get("o") and self.fuel_points():
             # nemokamas patikslinimas (be paieškos): vieta rasta tada, kai OSM degalinių sąrašo neturėjome
             pt = self.tag_match(st) or self.snap(hit["lat"], hit["lng"], brand_name(st["company"]), APPROX[hit["q"]])
             hit = ({"lat": pt[0], "lng": pt[1], "q": "osm-degaline", "t": t, "v": GEO_V} if pt
@@ -373,14 +386,14 @@ class Geocoder:
             return hit
         exact = self.tag_match(st)
         if exact:
-            self.cache[key] = {"lat": exact[0], "lng": exact[1], "q": "osm-degaline", "t": t, "v": GEO_V}
+            self.cache[key] = {"lat": exact[0], "lng": exact[1], "q": "osm-degaline", "t": t, "v": GEO_V, "src": "zymes"}
             return self.cache[key]
         osm = {"o": 1} if self.fuel_points() else {}  # be „o“ – kitą kartą bus tikslinama
         street_all, post = split_address(st["addr"])
         a = parse_parts(st["addr"])
         mun = expand_mun(st["mun"])
         tries = [
-            (f"{street_all}, LT-{post}" if post else street_all, "adresas", 0.4),
+            (f"{street_all}, LT-{post}" if post else street_all, "adresas", APPROX["adresas"]),
             ({"postalcode": post} if post else None, "pasto-kodas", APPROX["pasto-kodas"]),
         ]
         if a["settl"]:
@@ -392,11 +405,14 @@ class Geocoder:
                 if not q:
                     continue
                 pt = self.nominatim(q)
-                if not pt:
+                if not pt or not self.in_mun(pt[3], st["mun"]):
                     continue
+                if quality == "adresas" and pt[2] < 29:  # rastas ne namas, o tik gatvė ar gyvenvietė
+                    quality = "gatve" if pt[2] >= 26 else "gyvenviete"
+                    radius = APPROX[quality]
                 snapped = self.snap(pt[0], pt[1], brand_name(st["company"]), radius)
                 if snapped:
-                    out = {"lat": snapped[0], "lng": snapped[1], "q": "osm-degaline", "t": t, "v": GEO_V}
+                    out = {"lat": snapped[0], "lng": snapped[1], "q": "osm-degaline", "t": t, "v": GEO_V, "src": quality}
                 else:
                     out = {"lat": round(pt[0], 6), "lng": round(pt[1], 6), "q": quality, "t": t, "v": GEO_V, **osm}
                 break
@@ -432,7 +448,7 @@ def build_output(stations: dict, coords: dict, max_date: dt.date,
         key = f"{s['company']}|{s['mun']}|{s['addr']}"
         g = coords.get(key) or {}
         lat, lng = g.get("lat"), g.get("lng")
-        approx = 1 if g.get("q") in ("gyvenviete", "pasto-kodas", "savivaldybe") else 0
+        approx = 1 if g.get("q") in ("gatve", "gyvenviete", "pasto-kodas", "savivaldybe") else 0
         if g.get("q") == "savivaldybe":
             lat = lng = None  # per netikslu atstumui skaičiuoti
         newest = max(d for _, d in s["prices"].values())

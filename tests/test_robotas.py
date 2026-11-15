@@ -98,7 +98,10 @@ class FakeNet:
         if url == R.OVERPASS:
             return {"elements": self.fuel}
         hit = self.nominatim.get(params.get("q") or "post:" + params.get("postalcode", ""))
-        return [{"lat": str(hit[0]), "lon": str(hit[1])}] if hit else []
+        if not hit:
+            return []
+        extra = hit[2] if len(hit) > 2 else {}
+        return [{"lat": str(hit[0]), "lon": str(hit[1]), **extra}]
 
 
 ST = {"company": "UAB Circle K Lietuva", "mun": "Vilniaus m. sav.", "addr": "Vilnius, Savanorių pr. 118, 03153"}
@@ -135,7 +138,7 @@ def test_geocoder_postcode_fallback_and_retries():
 
 
 def test_old_version_misses_are_retried_now():
-    old = {KEY: {"q": "none", "t": "2026-11-15"}, "x|y|z": {"q": "savivaldybe", "lat": 1, "lng": 1, "t": "2026-11-15"}}
+    old = {KEY: {"q": "none", "t": "2026-11-15"}, "x|y|z": {"q": "osm-degaline", "lat": 1, "lng": 1, "t": "2026-11-15", "v": 2}}
     net = FakeNet(nominatim={"Vilnius, Savanorių pr. 118, LT-03153": (54.6615, 25.2350)})
     g = R.Geocoder(old, net, sleep=lambda s: None, today=dt.date(2026, 11, 16))
     assert g.locate(ST)["q"] == "adresas"
@@ -168,7 +171,7 @@ def test_approx_hits_are_refined_for_free_when_osm_available(tmp_path):
     tagged = [{"type": "node", "lat": 54.6617, "lon": 25.2353, "tags": {"brand": "Circle K", "addr:postcode": "03153",
                                                                       "addr:street": "Savanorių prospektas", "addr:housenumber": "118"}}]
     untagged = [{"type": "node", "lat": 54.665, "lon": 25.236, "tags": {"brand": "Circle K"}}]
-    old = {"q": "pasto-kodas", "lat": 54.66, "lng": 25.23, "t": "2026-11-15", "v": 2}
+    old = {"q": "pasto-kodas", "lat": 54.66, "lng": 25.23, "t": "2026-11-15", "v": R.GEO_V}
     for fuel, want in ((tagged, (54.6617, 25.2353)), (untagged, (54.665, 25.236))):
         g = R.Geocoder({KEY: dict(old)}, FakeNet(fuel=fuel), sleep=lambda s: None)
         res = g.locate(ST)
@@ -198,6 +201,28 @@ def test_osm_points_saved_and_reused_when_overpass_down(tmp_path):
     assert len(g.fuel_points()) == 1  # iš failo
     g = R.Geocoder({}, Down(), sleep=lambda s: None, offline=True)
     assert g.fuel_points() == []
+
+
+def test_namesake_in_other_municipality_is_rejected():
+    wrong = {"address": {"village": "Dumblė", "municipality": "Kelmės rajono savivaldybė", "country": "Lietuva"}, "place_rank": 19}
+    right = {"address": {"village": "Dumblė", "municipality": "Šalčininkų rajono savivaldybė"}, "place_rank": 19}
+    st = {"company": "UAB Tomega", "mun": "Šalčininkų r. sav.", "addr": "Dumblės k."}
+    g = R.Geocoder({}, FakeNet(nominatim={"Dumblės k.": (55.6, 22.9, wrong)}), sleep=lambda s: None)
+    assert g.locate(st)["q"] == "none"
+    g = R.Geocoder({}, FakeNet(nominatim={"Dumblės k.": (54.3, 25.4, right)}), sleep=lambda s: None)
+    res = g.locate(st)
+    assert res["q"] == "gyvenviete" and res["lat"] == 54.3  # rangas 19 – tik gyvenvietė, ne tikslus adresas
+
+
+def test_street_level_hit_is_marked_approximate(xlsx):
+    road = {"address": {"road": "Savanorių prospektas", "municipality": "Vilniaus miesto savivaldybė"}, "place_rank": 26}
+    cache = {}
+    g = R.Geocoder(cache, FakeNet(nominatim={"Vilnius, Savanorių pr. 118, LT-03153": (54.67, 25.25, road)}), sleep=lambda s: None)
+    assert g.locate(ST)["q"] == "gatve"
+    st, max_date = R.parse_lea(Path(xlsx).read_bytes())
+    out = R.build_output(st, cache, max_date)
+    row = next(r for r in out["s"] if out["N"][r[0]] == "Circle K")
+    assert row[10] == 1 and row[3] == 54.67
 
 
 def test_village_name_in_nominative():
