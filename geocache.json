@@ -3,47 +3,57 @@
 "lat": 54.403011,
 "lng": 24.037101,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "AB Orlen Baltics Retail|Elektrėnų sav.|Kakliniškių k., Žilvičių g. 1A, 26138": {
 "lat": 54.790715,
 "lng": 24.669701,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "AB Orlen Baltics Retail|Kaišiadorių r. sav.|Žiežmarių k., Kauno pl. 6, 56232": {
 "lat": 54.815962,
 "lng": 24.433443,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "AB Orlen Baltics Retail|Kauno m. sav.|Kaunas, Kalvarijos g. 138, 46403": {
-"lat": 54.855525,
-"lng": 23.851032,
-"o": 1,
-"q": "adresas",
+"lat": 54.851344,
+"lng": 23.84312,
+"q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "AB Orlen Baltics Retail|Kauno m. sav.|Kaunas, Pramonės pr. 37, 51271": {
 "lat": 54.915805,
 "lng": 23.984205,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "AB Orlen Baltics Retail|Kauno m. sav.|Kaunas, Varnių g. 50, 48401": {
 "lat": 54.913821,
 "lng": 23.906841,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "AB Orlen Baltics Retail|Kauno m. sav.|Kaunas, Veiverių g. 148B, 46392": {
 "lat": 54.86734,
 "lng": 23.887298,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "AB Orlen Baltics Retail|Kauno r. sav.|Biruliškių k., 54469": {
 "lat": 54.924319,
@@ -51,174 +61,204 @@
 "o": 1,
 "q": "adresas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "AB Orlen Baltics Retail|Kauno r. sav.|Ringaudų k., Beržų g. 2N, 53335": {
 "lat": 54.888627,
 "lng": 23.818516,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "AB Orlen Baltics Retail|Klaipėdos m. sav.|Klaipėda, Minijos g. 44, 91197": {
 "lat": 55.693867,
 "lng": 21.14027,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "AB Orlen Baltics Retail|Klaipėdos m. sav.|Klaipėda, Šilutės pl. 26A, 91177": {
 "lat": 55.698573,
 "lng": 21.167328,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "AB Orlen Baltics Retail|Klaipėdos m. sav.|Klaipėda, Šilutės pl. 94, 95264": {
 "lat": 55.668161,
 "lng": 21.208648,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "AB Orlen Baltics Retail|Klaipėdos r. sav.|Jakų k., Vilniaus pl. 13, 92498": {
 "lat": 55.707811,
 "lng": 21.245739,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "AB Orlen Baltics Retail|Kretingos r. sav.|Vilimiškės k., 97220": {
-"lat": 55.909339,
-"lng": 21.096643,
+"lat": 55.932461,
+"lng": 21.128958,
 "o": 1,
-"q": "adresas",
+"q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "AB Orlen Baltics Retail|Marijampolės sav.|Aleksandravo k., 68100": {
-"lat": 54.58526,
-"lng": 23.376428,
-"o": 1,
-"q": "adresas",
+"lat": 54.582934,
+"lng": 23.370991,
+"q": "osm-degaline",
+"src": "gyvenviete",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "AB Orlen Baltics Retail|Mažeikių r. sav.|Mažeikiai, Skuodo g. 14, 89100": {
 "lat": 56.314458,
 "lng": 22.311005,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "AB Orlen Baltics Retail|Mažeikių r. sav.|Mažeikiai, Žemaitijos g. 42, 89239": {
 "lat": 56.302047,
 "lng": 22.342443,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "AB Orlen Baltics Retail|Panevėžio m. sav.|Panevėžys, Klaipėdos g. 162 D, 37372": {
 "lat": 55.731763,
 "lng": 24.303178,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "AB Orlen Baltics Retail|Panevėžio m. sav.|Panevėžys, Senamiesčio g. 115, 35114": {
 "lat": 55.748211,
 "lng": 24.390858,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "AB Orlen Baltics Retail|Panevėžio r. sav.|Nausodė, Šiaulių g. 50, 38366": {
 "lat": 55.733843,
 "lng": 24.263559,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "AB Orlen Baltics Retail|Prienų r. sav.|Verbyliškių k., Alytaus g. 2, 59431": {
 "lat": 54.578844,
 "lng": 24.170639,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "AB Orlen Baltics Retail|Raseinių r. sav.|Nemakščių apyl., Pikelių k. 6, 60375": {
 "lat": 55.464504,
 "lng": 22.684652,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "AB Orlen Baltics Retail|Raseinių r. sav.|Pikelių k. 8, 60375": {
 "lat": 55.461621,
 "lng": 22.695789,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "AB Orlen Baltics Retail|Tauragės r. sav.|Tauragė, Gedimino g. 46, 72336": {
 "lat": 55.244262,
 "lng": 22.303731,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "AB Orlen Baltics Retail|Telšių r. sav.|Telšiai, Plungės g. 33 D, 87329": {
 "lat": 55.97921,
 "lng": 22.226677,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "AB Orlen Baltics Retail|Vilniaus m. sav.|Vilnius, Juodasis kl. 32, 11307": {
 "lat": 54.662961,
 "lng": 25.342381,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "AB Orlen Baltics Retail|Vilniaus m. sav.|Vilnius, O. Milašiaus g. 31, 10102": {
 "lat": 54.728062,
 "lng": 25.327011,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "AB Orlen Baltics Retail|Vilniaus m. sav.|Vilnius, Ukmergės g. 319, 06305": {
 "lat": 54.736921,
 "lng": 25.232031,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "AB Orlen Baltics Retail|Vilniaus m. sav.|Vilnius, Žirmūnų g. 1T, 09239": {
 "lat": 54.695998,
 "lng": 25.3001,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "AB Orlen Baltics Retail|Šiaulių m. sav.|Šiauliai, Serbentų g. 82, 77126": {
 "lat": 55.913609,
 "lng": 23.336876,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "Agroserviso kooperatyvas Pynauja|Šilalės r. sav.|Kvėdarna, Papynaujo k., Dvaro g. 1, 75342": {
 "lat": 55.565908,
 "lng": 21.995562,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "I.Stonkuvienės prekybos įmonė|Kretingos r. sav.|Kartena, Kretingos g. 51, 97351": {
 "lat": 55.916927,
 "lng": 21.467466,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "IĮ A. Praškevičiaus|Kaišiadorių r. sav.|Migonių k., Kalvių g. 4, 56292": {
 "q": "none",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "IĮ M.Augustinaičio|Kėdainių r. sav.|Šingalių k., Kėdainių g. 44, 58185": {
 "lat": 55.248476,
@@ -226,7 +266,7 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "IĮ Raimondo Balsio|Kelmės r. sav.|Ramučių k., Luokės g. 2, 86377": {
 "lat": 55.827139,
@@ -234,49 +274,55 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "IĮ V.Marcinkevičiaus|Šilutės r. sav.|Pavilnučio k., Bažnyčios g. 7, 99392": {
 "lat": 55.513855,
 "lng": 21.609759,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "Lašų žemės ūkio bendrovė|Rokiškio r. sav.|Vytėnai, Vytėnų vs 9, 42255": {
 "lat": 55.857548,
 "lng": 25.733611,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "MB Tormenta|Kauno m. sav.|Kaunas, Linkuvos g. 77, 48314": {
 "lat": 54.914313,
 "lng": 23.887732,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "S.Savicko įmonė|Kėdainių r. sav.|Kėdainiai, Dariaus ir Girėno 23 A, 57149": {
 "lat": 55.312708,
 "lng": 23.978113,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "S.Savicko įmonė|Kėdainių r. sav.|Kėdainiai, Gedimino g. 50, 57309": {
 "lat": 55.291472,
 "lng": 23.960557,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "S.Savicko įmonė|Kėdainių r. sav.|Kėdainiai, J.Basanavičiaus g. 103, 57350": {
 "lat": 55.274233,
 "lng": 23.944967,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "S.Savicko įmonė|Kėdainių r. sav.|Kėdainiai, Šėtos g. 120, 58115": {
 "lat": 55.296292,
@@ -284,14 +330,15 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "S.Savicko įmonė|Kėdainių r. sav.|Saviečių k., Vandžiogalos g. 29, 58151": {
 "lat": 55.166905,
 "lng": 23.994837,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "Sigito Rimkevičiaus komercinė įmonė|Joniškio r. sav.|Joniškis, Turgaus g. 3, 84172": {
 "lat": 56.231606,
@@ -299,86 +346,103 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "Sigito Rimkevičiaus komercinė įmonė|Kėdainių r. sav.|Pelėdnagiai, Miškininkų g. 14, 58163": {
 "lat": 55.252505,
 "lng": 23.967981,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Adukesta|Klaipėdos r. sav.|Maciuičių k., Laisvės g. 50, 96159": {
 "lat": 55.693503,
 "lng": 21.413752,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Alauša|Alytaus r. sav.|Santaikos k., Santaikos g. 2A, 64283": {
 "lat": 54.388337,
 "lng": 23.820095,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Alauša|Anykščių r. sav.|Anykščiai, A. Vienuolio g. 32A, 29149": {
-"lat": 55.522603,
-"lng": 25.088,
-"q": "osm-degaline",
-"t": "2026-11-15"
+"lat": 55.519098,
+"lng": 25.079502,
+"o": 1,
+"q": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Alauša|Anykščių r. sav.|Bajorų k., Šimonių g. 36, 29352": {
 "lat": 55.685016,
 "lng": 25.352864,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Alauša|Ignalinos r. sav.|Ignalina, Švenčionių g. 29A, 30132": {
 "lat": 55.332015,
 "lng": 26.167142,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Alauša|Kalvarijos sav.|Salaperaugio k., Europos g. 17, 69286": {
 "lat": 54.320393,
 "lng": 23.139868,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Alauša|Kauno m. sav.|Kaunas, Palemono g. 171, 52107": {
 "lat": 54.923481,
 "lng": 24.072104,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Alauša|Marijampolės sav.|Marijampolė, Sporto g. 50A, 68110": {
 "lat": 54.566071,
 "lng": 23.380345,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Alauša|Marijampolės sav.|Marijampolė, Stoties g. 49, 68261": {
 "lat": 54.562124,
 "lng": 23.36619,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Alauša|Marijampolės sav.|Puskelnių k., Plytinės g. 2, 68103": {
 "lat": 54.605465,
 "lng": 23.404855,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Alauša|Rokiškio r. sav.|Obeliai, Dariaus ir Girėno g. 36, 42209": {
 "lat": 55.948538,
 "lng": 25.814297,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Alauša|Ukmergės r. sav.|Ukmergė, Kauno g. 37, 20120": {
 "lat": 55.226034,
@@ -386,98 +450,111 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Alauša|Utenos r. sav.|Daugailių k., Plento g. 17, 28414": {
 "lat": 55.593991,
 "lng": 25.83345,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Alauša|Utenos r. sav.|Utena, J. Basanavičiaus g. 1C, 28134": {
 "lat": 55.495669,
 "lng": 25.581784,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Alauša|Utenos r. sav.|Utena, Palijoniškio g. 1, 28183": {
 "lat": 55.511849,
 "lng": 25.60001,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Alauša|Vilniaus m. sav.|Grigiškės, Vilniaus g. 8, 27101": {
 "lat": 54.677462,
 "lng": 25.078684,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Alauša|Vilniaus m. sav.|Vilnius, Buivydiškių g. 5, 07171": {
 "lat": 54.71083,
 "lng": 25.24042,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Alauša|Vilniaus m. sav.|Vilnius, Kalvarijų g. 204G, 08247": {
 "lat": 54.720861,
 "lng": 25.284788,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Alauša|Vilniaus m. sav.|Vilnius, Kirtimų g. 23A, 02300": {
 "lat": 54.651113,
 "lng": 25.150232,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Alauša|Vilniaus m. sav.|Vilnius, Laisvės pr. 125A, 06118": {
 "lat": 54.727651,
 "lng": 25.235269,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Alauša|Vilniaus m. sav.|Vilnius, Pelesos g. 1, 02161": {
 "lat": 54.665807,
 "lng": 25.274048,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Alauša|Vilniaus m. sav.|Vilnius, Šiaurės g. 39, 11110": {
 "lat": 54.703385,
 "lng": 25.415938,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Alauša|Vilniaus m. sav.|Vilnius, Šv. Stepono g. 44, 01312": {
 "lat": 54.669143,
 "lng": 25.278796,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Alauša|Visagino sav.|Visaginas, Kosmoso g. 3, 31142": {
 "lat": 55.599178,
 "lng": 26.419846,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Alauša|Šakių r. sav.|Kudirkos Naumiestis, Šakių g. 51, 71319": {
 "lat": 54.784138,
 "lng": 22.873383,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Alauša|Šalčininkų r. sav.|Skraičionys, Skraičionių g. 1, 17140": {
 "lat": 54.210258,
@@ -485,104 +562,119 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Alauša|Šiaulių r. sav.|Kairiai, Plento g. 2B, 80114": {
 "lat": 55.920164,
 "lng": 23.425944,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Alauša|Širvintų r. sav.|Paširvinčio k., Paširvio g. 1, 19128": {
 "lat": 55.024575,
 "lng": 24.985538,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Andopas|Šilutės r. sav.|Šilutė, Ramučių g. 43, 99150": {
 "lat": 55.358775,
 "lng": 21.503188,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Antivis|Kelmės r. sav.|Tytuvėnai, Žemaitės g. 14, 86490": {
 "lat": 55.594182,
 "lng": 23.179498,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Apsaga|Joniškio r. sav.|Radikių k., 13, 84164": {
 "lat": 56.207384,
 "lng": 23.58049,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Apsaga|Radviliškio r. sav.|Baisogalos k., Beržų g. 19, 82323": {
 "lat": 55.634752,
 "lng": 23.73346,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Apsaga|Radviliškio r. sav.|Radviliškis, Šiaulių g. 12, 82142": {
 "lat": 55.81545,
 "lng": 23.543683,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Apsaga|Šiaulių m. sav.|Šiauliai, Nuklono g. 4, 78349": {
 "lat": 55.91625,
 "lng": 23.247172,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Apsaga|Šiaulių m. sav.|Šiauliai, Pramonės g. 28, 77116": {
 "lat": 55.904952,
 "lng": 23.328068,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Apsaga|Šiaulių m. sav.|Šiauliai, Pramonės g. 3A, 78140": {
 "lat": 55.917865,
 "lng": 23.297526,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Apsaga|Šiaulių m. sav.|Šiauliai, Tilžės g. 223, 76200": {
 "lat": 55.940632,
 "lng": 23.326268,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Apsaga|Šiaulių m. sav.|Šiauliai, V. Bielskio g. 47A, 76159": {
 "lat": 55.956351,
 "lng": 23.308428,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Apsaga|Šiaulių m. sav.|Šiauliai, Vilniaus g. 16, 76265": {
 "lat": 55.923547,
 "lng": 23.350098,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Atsiauta|Šiaulių r. sav.|Kuršėnai, Vytauto g. 80, 81146": {
 "lat": 56.014812,
 "lng": 22.951435,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Autograndas|Visagino sav.|Visaginas, Taikos pr. 47, 31217": {
 "lat": 55.592378,
@@ -590,19 +682,23 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Akmenės r. sav.|Naujoji Akmenė, V. Kudirkos g. 21A, 85145": {
-"lat": 56.318469,
-"lng": 22.88553,
-"q": "osm-degaline",
-"t": "2026-11-15"
+"lat": 56.318492,
+"lng": 22.885452,
+"o": 1,
+"q": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Alytaus m. sav.|Alytus, Santaikos g. 33, 62100": {
 "lat": 54.386479,
 "lng": 24.033046,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Alytaus r. sav.|Likiškėliai, Pabalių g. 11, 64381": {
 "lat": 54.403586,
@@ -610,58 +706,71 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Anykščių r. sav.|Anykščiai, Mindaugo g. 23, 29141": {
 "lat": 55.508516,
 "lng": 25.096183,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Biržų r. sav.|Valantiškio k., 41131": {
 "lat": 56.197349,
 "lng": 24.709642,
 "q": "osm-degaline",
+"src": "gyvenviete",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Druskininkų sav.|Druskininkai, Gardino g. 79, 69191": {
 "lat": 53.999893,
 "lng": 23.987959,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Druskininkų sav.|Druskininkai, Leipalingio g. 26, 66371": {
 "lat": 54.030243,
 "lng": 23.983284,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Druskininkų sav.|Leipalingis, Merkinės g. 37, 67280": {
 "lat": 54.09462,
 "lng": 23.871438,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Jonavos r. sav.|Gudžionių k., Plento g. 24, 58244": {
 "lat": 55.099109,
 "lng": 24.315952,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Jonavos r. sav.|Jonava, Žemaitės g. 1, 55134": {
 "lat": 55.082362,
 "lng": 24.270939,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Jonavos r. sav.|Spanėnų k., Plento g. 46, 55305": {
 "lat": 55.058135,
 "lng": 24.263465,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Joniškio r. sav.|Joniškis, Vilniaus g. 72, 84172": {
 "lat": 56.231606,
@@ -669,254 +778,311 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Jurbarko r. sav.|Jurbarkas, Muitinės g. 22A, 74111": {
 "lat": 55.078136,
 "lng": 22.744867,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Jurbarko r. sav.|Klišių k., Pievų g. 2, 74211": {
 "lat": 55.098527,
 "lng": 22.772766,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Kaišiadorių r. sav.|Triliškių k., Kauno pl. 5, 56179": {
-"q": "none",
+"lat": 54.816978,
+"lng": 24.436628,
+"q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Kalvarijos sav.|Pasiekų k., Europos g. 12, 69270": {
 "lat": 54.322346,
 "lng": 23.145199,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Kalvarijos sav.|Salaperaugio k., Europos g. 9, 69286": {
 "lat": 54.322346,
 "lng": 23.145199,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Kauno m. sav.|Kaunas, Chemijos g. 6, 51344": {
 "lat": 54.903137,
 "lng": 23.982734,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Kauno m. sav.|Kaunas, Jonavos g. 60A, 44191": {
 "lat": 54.905026,
 "lng": 23.899559,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Kauno m. sav.|Kaunas, Minkovskių g. 132, 46245": {
 "lat": 54.885695,
 "lng": 23.911963,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Kauno m. sav.|Kaunas, Raudondvario pl. 82, 47179": {
 "lat": 54.907762,
 "lng": 23.874128,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Kauno m. sav.|Kaunas, Taikos pr. 120, 52140": {
 "lat": 54.917376,
 "lng": 24.0348,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Kauno m. sav.|Kaunas, Vaidoto g. 153, 45392": {
 "lat": 54.861356,
 "lng": 23.958806,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Kauno r. sav.|Jaučakių k., 54217": {
 "lat": 55.046176,
 "lng": 23.588632,
 "o": 1,
-"q": "adresas",
+"q": "gatve",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Kauno r. sav.|Pagirių k., Marijampolės g. 1, 53282": {
 "lat": 54.814613,
 "lng": 23.87258,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Kauno r. sav.|Ringaudų k., Gėlių g. 1A, 53335": {
 "lat": 54.889459,
 "lng": 23.804647,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Klaipėdos m. sav.|Klaipėda, Liepų g. 79A, 92195": {
 "lat": 55.720816,
 "lng": 21.152496,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Klaipėdos m. sav.|Klaipėda, Tilžės g. 90, 91101": {
 "lat": 55.700772,
 "lng": 21.200499,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Klaipėdos m. sav.|Klaipėda, Šilutės pl. 1, 91109": {
 "lat": 55.704958,
 "lng": 21.163557,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Klaipėdos r. sav.|Gargždai, Dariaus ir Girėno g. 10, 96144": {
-"lat": 55.707425,
-"lng": 21.380302,
+"lat": 55.707255,
+"lng": 21.384157,
 "o": 1,
-"q": "adresas",
+"q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Klaipėdos r. sav.|Priekulė, Klaipėdos g. 61, 96342": {
 "lat": 55.561903,
 "lng": 21.308737,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Kupiškio r. sav.|Noriūnų k., Parko g. 3A, 40395": {
 "lat": 55.796467,
 "lng": 24.888841,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Kėdainių r. sav.|Kėdainiai, J. Basanavičiaus g. 95B, 57352": {
 "lat": 55.276943,
 "lng": 23.95582,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Lazdijų r. sav.|Lazdijai, Turistų g. 88, 67102": {
 "lat": 54.220779,
 "lng": 23.508937,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Marijampolės sav.|Marijampolė, P. Armino g. 69, 68127": {
 "lat": 54.533804,
 "lng": 23.353361,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Marijampolės sav.|Marijampolė, Vasaros g. 15, 68266": {
 "lat": 54.555675,
 "lng": 23.375495,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Marijampolės sav.|Pietarių k., Kauno g. 164, 68100": {
 "lat": 54.586901,
 "lng": 23.384638,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Mažeikių r. sav.|Mažeikiai, M. Daukšos g. 17, 89234": {
 "lat": 56.305021,
 "lng": 22.351023,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Mažeikių r. sav.|Tirkšliai, Laukų g. 10, 89330": {
-"lat": 56.262555,
-"lng": 22.310453,
+"lat": 56.260113,
+"lng": 22.339002,
 "o": 1,
-"q": "adresas",
+"q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Mažeikių r. sav.|Užežerės k., Gardenio g. 39, 89382": {
 "lat": 56.163909,
 "lng": 22.101594,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Molėtų r. sav.|Molėtai, Vilniaus g. 104, 33114": {
 "lat": 55.217336,
 "lng": 25.403309,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Neringos sav.|Neringa, Nidos-Smiltynės pl. 6, 93125": {
 "lat": 55.30088,
 "lng": 20.979876,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Pakruojo r. sav.|Pakruojis, Statybininkų g. 28, 83163": {
 "lat": 55.974461,
 "lng": 23.868935,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Palangos m. sav.|Palanga, Ganyklų g. 28C, 00126": {
-"lat": 55.92344,
-"lng": 21.075972,
-"o": 1,
-"q": "adresas",
+"lat": 55.915622,
+"lng": 21.078379,
+"q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Palangos m. sav.|Palanga, Klaipėdos pl. 44, 00111": {
 "lat": 55.915622,
 "lng": 21.078379,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Panevėžio m. sav.|Panevėžys, Smėlynės g. 169, 37454": {
 "lat": 55.75759,
 "lng": 24.367712,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Baltic Petroleum|Panevėžio m. sav.|Panevėžys, Velžio kl. 74, 36148": {
 "lat": 55.721872,
 "lng": 24.391453,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Pasvalio r. sav.|Pasvalys, Mūšos g. 18, 39104": {
 "lat": 56.070835,
 "lng": 24.411177,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Plungės r. sav.|Plateliai, Žemaičių Kalvarijos g. 1A, 90421": {
 "lat": 56.043859,
 "lng": 21.815696,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Prienų r. sav.|Prienai, Vilniaus g. 3A, 59115": {
 "lat": 54.628488,
 "lng": 23.958653,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Prienų r. sav.|Veiverių k., Kauno g. 85, 59285": {
 "lat": 54.792186,
@@ -924,71 +1090,79 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Radviliškio r. sav.|Radviliškis, Miško g. 64, 82128": {
 "lat": 55.800669,
 "lng": 23.565428,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Radviliškio r. sav.|Radviliškis, Šiaulių g. 1A, 82142": {
 "lat": 55.825519,
 "lng": 23.523302,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Radviliškio r. sav.|Užuovėjos k., 82215": {
-"lat": 54.809765,
-"lng": 25.291711,
-"o": 1,
-"q": "adresas",
+"lat": 55.763263,
+"lng": 23.742852,
+"q": "osm-degaline",
+"src": "gyvenviete",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Raseinių r. sav.|Girkalnio k., Žemaičių g. 39, 60311": {
 "lat": 55.318323,
 "lng": 23.210812,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Raseinių r. sav.|Kalnujų k. 1, 60191": {
 "lat": 55.335592,
 "lng": 23.102327,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Raseinių r. sav.|Raseiniai, Vilniaus g. 30, 60183": {
 "lat": 55.370962,
 "lng": 23.133138,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Rietavo sav.|Rietavas, Dariaus ir Girėno g. 19, 90316": {
 "lat": 55.719401,
 "lng": 21.928502,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Rokiškio r. sav.|Pandėlio k., Elektrinės g. 1, 42370": {
 "lat": 56.01921,
 "lng": 25.222173,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Skuodo r. sav.|Skuodas, Vytauto g. 22, 98122": {
 "lat": 56.259407,
 "lng": 21.530114,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Tauragės r. sav.|Taurų k., Tilžės pl. 362, 72142": {
 "lat": 55.242879,
@@ -996,112 +1170,127 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Telšių r. sav.|Ožtakių k., Dariaus ir Girėno g. 76, 88321": {
 "lat": 55.730456,
 "lng": 22.376796,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Telšių r. sav.|Telšiai, Šiaulių pl. 12, 88101": {
 "lat": 56.003941,
 "lng": 22.244746,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Trakų r. sav.|Trakai, Vilniaus g. 33, 21118": {
 "lat": 54.627305,
 "lng": 24.948549,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Ukmergės r. sav.|Ukmergė, Kauno g. 49, 20115": {
 "lat": 55.240861,
 "lng": 24.739606,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Utenos r. sav.|Utena, Basanavičiaus g. 1B, 28138": {
 "lat": 55.495321,
 "lng": 25.574845,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Varėnos r. sav.|Merkinė, Vilniaus g. 87, 65333": {
 "lat": 54.169132,
 "lng": 24.207744,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Varėnos r. sav.|Senosios Varėnos k., Vilniaus g. 6A, 65486": {
 "lat": 54.256437,
 "lng": 24.547086,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Varėnos r. sav.|Varėna, M. K. Čiurlionio g. 63, 65219": {
 "lat": 54.218344,
 "lng": 24.565626,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Vilniaus m. sav.|Vilnius, Antakalnio g. 128, 10200": {
 "lat": 54.722213,
 "lng": 25.317142,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Vilniaus m. sav.|Vilnius, B. Brazdžionio g. 2, 47266": {
 "lat": 54.613926,
 "lng": 25.309,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Vilniaus m. sav.|Vilnius, Gerosios Vilties g. 33, 03202": {
 "lat": 54.666766,
 "lng": 25.250796,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Vilniaus m. sav.|Vilnius, Kalvarijų g. 161A, 08311": {
 "lat": 54.724043,
 "lng": 25.282353,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Vilniaus m. sav.|Vilnius, Metalo g. 4B, 02189": {
 "lat": 54.640483,
 "lng": 25.26748,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Vilniaus m. sav.|Vilnius, Molėtų pl. 27A, 08450": {
 "lat": 54.767712,
 "lng": 25.272528,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Vilniaus m. sav.|Vilnius, Rinktinės g. 59, 09318": {
 "lat": 54.702817,
 "lng": 25.288245,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Vilniaus m. sav.|Vilnius, S. Batoro g. 15, 11100": {
 "lat": 54.695839,
@@ -1109,21 +1298,23 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Vilniaus m. sav.|Vilnius, Savanorių pr. 121, 03150": {
 "lat": 54.660837,
 "lng": 25.23339,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Vilniaus m. sav.|Vilnius, Visalaukio g. 2, 08401": {
 "lat": 54.779293,
 "lng": 25.342091,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Vilniaus m. sav.|Vilnius, Zujūnų g. 2A, 06200": {
 "lat": 54.718286,
@@ -1131,21 +1322,23 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Vilniaus r. sav.|Grigaičiai, Pavilnės g. 1, 11236": {
 "lat": 54.681006,
 "lng": 25.411992,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Vilniaus r. sav.|Užubalių k., Senasis Ukmergės kl. 4, 14013": {
 "lat": 54.768622,
 "lng": 25.195997,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Vilniaus r. sav.|Vilkaraisčio k., 15173": {
 "lat": 54.836165,
@@ -1153,21 +1346,23 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Zarasų r. sav.|Padustėlio k., V. Striogos g. 4A, 32306": {
 "lat": 55.739845,
 "lng": 25.852164,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Zarasų r. sav.|Sarakiškių k., Vytauto g. 61, 32139": {
 "lat": 55.737226,
 "lng": 26.272949,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Šakių r. sav.|Griškabūdis, A. Skelčio g., 71296": {
 "lat": 54.836868,
@@ -1175,28 +1370,31 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Šakių r. sav.|Šakiai, Sodų g. 1, 71136": {
 "lat": 54.945364,
 "lng": 23.045768,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Šalčininkų r. sav.|Šalčininkai, Vilniaus g. 5A, 17102": {
 "lat": 54.317946,
 "lng": 25.381581,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Šiaulių m. sav.|Šiauliai, Kupiškio g. 4, 76146": {
 "lat": 55.957734,
 "lng": 23.316085,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Šilalės r. sav.|Bučių k., 75381": {
 "lat": 55.571438,
@@ -1204,69 +1402,79 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Šilalės r. sav.|Šilalė, Rytinio kelio g. 2, 75122": {
 "lat": 55.490064,
 "lng": 22.20019,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Šilutės r. sav.|Šilutė, Klaipėdos g. 4A, 99116": {
 "lat": 55.352889,
 "lng": 21.46313,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Baltic Petroleum|Širvintų r. sav.|Širvintos, Musninkų g. 21, 19126": {
 "lat": 55.032262,
 "lng": 24.967125,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Bemija|Ukmergės r. sav.|Ukmergė, Dariaus ir Girėno g. 31, 20154": {
 "lat": 55.240543,
 "lng": 24.787566,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Bonsa|Tauragės r. sav.|Taurai, Tilžės pl. 46, 72142": {
 "lat": 55.242386,
 "lng": 22.249679,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Bonsa|Tauragės r. sav.|Vaidatonių k. 1, 73406": {
 "lat": 55.469134,
 "lng": 22.678514,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Boost Petrol|Elektrėnų sav.|Elektrėnai, Dubijos g. 36, 26130": {
-"lat": 54.786555,
-"lng": 24.714127,
-"q": "osm-degaline",
-"t": "2026-11-15"
+"lat": 54.781191,
+"lng": 24.71716,
+"o": 1,
+"q": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Boost Petrol|Kauno m. sav.|Kaunas, Marvelės g. 132, 46230": {
-"lat": 54.903837,
-"lng": 23.835313,
+"lat": 54.903801,
+"lng": 23.835337,
 "o": 1,
-"q": "adresas",
+"q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Boost Petrol|Kelmės r. sav.|Kelmė, Kęstučio g. 1B, 86139": {
 "lat": 55.634821,
 "lng": 22.945432,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Boost Petrol|Kelmės r. sav.|Kuršukų k., Plento g. 1, 86120": {
 "lat": 55.619495,
@@ -1274,7 +1482,7 @@
 "o": 1,
 "q": "gyvenviete",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Boost Petrol|Kelmės r. sav.|Maironių k., Kuršių g. 2, 86203": {
 "lat": 55.598405,
@@ -1282,22 +1490,23 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Boost Petrol|Molėtų r. sav.|Smėlinkos vs. 1, 33171": {
 "lat": 55.215644,
 "lng": 25.267733,
 "o": 1,
-"q": "adresas",
+"q": "gatve",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Boost Petrol|Utenos r. sav.|Utena, Zarasų g. 9, 28216": {
 "lat": 55.512321,
 "lng": 25.643937,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Boost Petrol|Šiaulių r. sav.|Ginkūnų k., Aušros g. 26, 81492": {
 "lat": 55.956494,
@@ -1305,406 +1514,511 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Borusta|Birštono sav.|Birštonas, Prienų g. 14, 59219": {
 "lat": 54.59535,
 "lng": 24.02672,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Borusta|Prienų r. sav.|Stakliškės, Piliakalnio g. 3, 59370": {
 "lat": 54.582227,
 "lng": 24.31778,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Borusta|Trakų r. sav.|Aukštadvaris, Vilniaus g. 2a, 21253": {
 "lat": 54.578086,
 "lng": 24.52152,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Alytaus m. sav.|Alytus, Naujoji g. 120, 62175": {
 "lat": 54.424648,
 "lng": 24.0035,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Alytaus m. sav.|Alytus, Rūtų g. 2B, 62119": {
 "lat": 54.395037,
 "lng": 24.0379,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Biržų r. sav.|Biržai, Kilučių g. 93, 41154": {
 "lat": 56.194828,
 "lng": 24.77215,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Druskininkų sav.|Druskininkai, M. K. Čiurlionio g. 113, 66161": {
 "lat": 54.010181,
 "lng": 23.993238,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Elektrėnų sav.|Elektrėnai, Sabališkių g. 1F, 26128": {
 "lat": 54.789169,
 "lng": 24.676056,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Jonavos r. sav.|Jonava, Vasario 16-osios g. 33, 55164": {
 "lat": 55.070371,
 "lng": 24.26355,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Joniškio r. sav.|Satkūnų k., Sidabros g. 2A, 84101": {
 "lat": 56.258562,
 "lng": 23.621841,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Kalvarijos sav.|Brazavo k., Muitinės g. 5B, 69231": {
 "lat": 54.368151,
 "lng": 23.183766,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Kalvarijos sav.|Salaperaugio k., Europos g. 13a, 69286": {
 "lat": 54.322678,
 "lng": 23.141372,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Kauno m. sav.|Kaunas, Briedžių takas 6B, 49106": {
 "lat": 54.935091,
 "lng": 23.966293,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Kauno m. sav.|Kaunas, Islandijos pl. 32, 47446": {
 "lat": 54.938358,
 "lng": 23.898308,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Kauno m. sav.|Kaunas, Islandijos pl. 61C, 49117": {
 "lat": 54.933611,
 "lng": 23.965773,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Kauno m. sav.|Kaunas, Jonavos g. 38, 44263": {
 "lat": 54.90158,
 "lng": 23.895021,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Kauno m. sav.|Kaunas, K. Baršausko g. 57, 51423": {
 "lat": 54.899048,
 "lng": 23.959926,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Kauno m. sav.|Kaunas, Karaliaus Mindaugo pr. 34A, 44306": {
 "lat": 54.894163,
 "lng": 23.914201,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Kauno m. sav.|Kaunas, Pramonės pr. 18, 51183": {
 "lat": 54.916231,
 "lng": 23.986675,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Kauno m. sav.|Kaunas, R. Kalantos g. 159, 52314": {
 "lat": 54.894045,
 "lng": 24.006598,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Kauno m. sav.|Kaunas, R. Kalantos g. 68, 52365": {
 "lat": 54.893051,
 "lng": 23.995804,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Kauno m. sav.|Kaunas, Raudondvario pl. 107A, 47186": {
 "lat": 54.908154,
 "lng": 23.865267,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Kauno m. sav.|Kaunas, Savanorių pr. 321, 50120": {
 "lat": 54.920143,
 "lng": 23.952836,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Kauno m. sav.|Kaunas, Savanorių pr. 404B, 50301": {
 "lat": 54.928358,
 "lng": 23.97391,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Kauno m. sav.|Kaunas, Sukilėlių pr. 120, 49237": {
 "lat": 54.928402,
 "lng": 23.92897,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Kauno m. sav.|Kaunas, Taikos pr. 52A, 51305": {
 "lat": 54.911934,
 "lng": 23.956739,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Kauno m. sav.|Kaunas, Tvirtovės al. 33A, 50157": {
 "lat": 54.913149,
 "lng": 23.926074,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Kauno m. sav.|Kaunas, Vakarinio aplinkkelio 10, 48182": {
-"lat": 54.894163,
-"lng": 23.914201,
+"lat": 54.935605,
+"lng": 23.870146,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Kauno m. sav.|Kaunas, Varnių g. 46, 48403": {
 "lat": 54.914457,
 "lng": 23.900227,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Kauno m. sav.|Kaunas, Veiverių g. 49A, 46336": {
 "lat": 54.880907,
 "lng": 23.894229,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Kauno m. sav.|Kaunas, Žemaičių pl. 19, 48255": {
 "lat": 54.925266,
 "lng": 23.890489,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Kauno r. sav.|Mastaičių k., Baltijos g. 1, 53289": {
 "lat": 54.818877,
 "lng": 23.858137,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Klaipėdos m. sav.|Klaipėda, H. Manto g. 96, 92295": {
 "lat": 55.730318,
 "lng": 21.124733,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Klaipėdos m. sav.|Klaipėda, Jūrininkų pr. 31, 95225": {
 "lat": 55.656655,
 "lng": 21.182442,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Klaipėdos m. sav.|Klaipėda, Minijos g. 90, 93234": {
 "lat": 55.687592,
 "lng": 21.144858,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Klaipėdos m. sav.|Klaipėda, Sausio 15-osios g. 2, 91200": {
 "lat": 55.702069,
 "lng": 21.138034,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Klaipėdos m. sav.|Klaipėda, Taikos pr. 112A, 93150": {
 "lat": 55.666436,
 "lng": 21.172644,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Klaipėdos m. sav.|Klaipėda, Taikos pr. 61B, 91182": {
 "lat": 55.692421,
 "lng": 21.153759,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Klaipėdos m. sav.|Klaipėda, Tilžės g. 56A, 91110": {
 "lat": 55.70415,
 "lng": 21.160906,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Klaipėdos m. sav.|Klaipėda, Vilniaus pl. 1A, 94105": {
 "lat": 55.692789,
 "lng": 21.179784,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Klaipėdos r. sav.|Jakų k., Vilniaus pl. 21, 92498": {
 "lat": 55.71135,
 "lng": 21.263065,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Kretingos r. sav.|Kretinga, Klaipėdos g. 155, 97156": {
 "lat": 55.86352,
 "lng": 21.217736,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Kėdainių r. sav.|Kėdainiai, J. Basanavičiaus g. 40A, 57290": {
 "lat": 55.286578,
 "lng": 23.972186,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Lazdijų r. sav.|Nekrūnų k. 1, 67171": {
 "lat": 54.226786,
 "lng": 23.525354,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Marijampolės sav.|Marijampolė, J. Dailidės g. 10, 68307": {
 "lat": 54.557191,
 "lng": 23.354077,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Marijampolės sav.|Marijampolė, Kauno g. 130, 68230": {
 "lat": 54.576226,
 "lng": 23.371504,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Mažeikių r. sav.|Mažeikiai, Žemaitijos g. 57, 89128": {
 "lat": 56.302454,
 "lng": 22.345424,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Palangos m. sav.|Palanga, Kretingos g. 56, 00111": {
 "lat": 55.914666,
 "lng": 21.077903,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Panevėžio m. sav.|Panevėžys, J. Basanavičiaus g. 63, 36204": {
 "lat": 55.717487,
 "lng": 24.371238,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Panevėžio m. sav.|Panevėžys, Klaipėdos g. 92A, 37383": {
 "lat": 55.728674,
 "lng": 24.338947,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Panevėžio m. sav.|Panevėžys, Parko g. 7A, 35189": {
 "lat": 55.731737,
 "lng": 24.342429,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Circle K Lietuva|Panevėžio r. sav.|Šilagalio k., Panevėžio aplinkl. 20, 36258": {
 "lat": 55.672454,
 "lng": 24.336503,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Panevėžio r. sav.|Ūtos k., Baltijos Kelio g. 33, 35189": {
 "lat": 55.731737,
 "lng": 24.342429,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Radviliškio r. sav.|Radviliškis, Gedimino g. 42B, 82174": {
 "lat": 55.811676,
 "lng": 23.550089,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Raseinių r. sav.|Pikelių k. 1, 60376": {
 "lat": 55.461287,
 "lng": 22.693182,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Rokiškio r. sav.|Rokiškis, Respublikos g. 111A, 42135": {
 "lat": 55.952254,
 "lng": 25.589768,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Tauragės r. sav.|Tauragė, Dariaus ir Girėno g. 83A, 72192": {
 "lat": 55.266997,
 "lng": 22.309806,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Tauragės r. sav.|Tauragė, Gedimino g. 47, 72294": {
 "lat": 55.248294,
 "lng": 22.303029,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Telšių r. sav.|Telšiai, Luokės g. 70, 87128": {
 "lat": 55.977118,
 "lng": 22.26512,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Trakų r. sav.|Dėdeliškių k., Didžiulio g. 5, 21401": {
 "lat": 54.68643,
 "lng": 25.05403,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Ukmergės r. sav.|Kurėnų k., Ežero g. 7, 20102": {
 "lat": 55.312027,
 "lng": 24.786625,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Utenos r. sav.|Utena, J. Basanavičiaus g. 108A, 28214": {
 "lat": 55.505003,
 "lng": 25.620944,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Utenos r. sav.|Utena, J. Basanavičiaus g. 3, 28134": {
 "lat": 55.4958,
 "lng": 25.583046,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Varėnos r. sav.|Varėna, Savanorių g. 5, 65186": {
 "lat": 54.210686,
@@ -1712,275 +2026,319 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilkaviškio r. sav.|Serdokų k., Vilkaviškio g. 10, 70201": {
 "lat": 54.636407,
 "lng": 23.074779,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilniaus m. sav.|Vilnius, A. Goštauto g. 13, 01108": {
 "lat": 54.694191,
 "lng": 25.263426,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilniaus m. sav.|Vilnius, A. P. Kavoliuko g. 32A, 04329": {
 "lat": 54.695316,
 "lng": 25.218269,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilniaus m. sav.|Vilnius, Baltupio g. 10, 08303": {
 "lat": 54.73595,
 "lng": 25.265445,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilniaus m. sav.|Vilnius, Eišiškių pl. 11, 02184": {
 "lat": 54.651514,
 "lng": 25.269463,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilniaus m. sav.|Vilnius, Gariūnų g. 45, 02300": {
 "lat": 54.658914,
 "lng": 25.161129,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilniaus m. sav.|Vilnius, Geležinio Vilko g. 24, 08412": {
 "lat": 54.751409,
 "lng": 25.266398,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilniaus m. sav.|Vilnius, Geležinio Vilko g. 2A, 03150": {
 "lat": 54.671001,
 "lng": 25.236624,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilniaus m. sav.|Vilnius, Geležinio Vilko g. 39, 08104": {
 "lat": 54.702354,
 "lng": 25.264959,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilniaus m. sav.|Vilnius, Geležinio Vilko g. 4, 08104": {
 "lat": 54.702836,
 "lng": 25.263915,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilniaus m. sav.|Vilnius, J. Tiškevičiaus g. 24, 02231": {
 "lat": 54.622939,
 "lng": 25.110291,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilniaus m. sav.|Vilnius, Kareivių g. 13, 09109": {
 "lat": 54.718581,
 "lng": 25.300621,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilniaus m. sav.|Vilnius, Kareivių g. 3, 08221": {
 "lat": 54.71554,
 "lng": 25.291023,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilniaus m. sav.|Vilnius, Laisvės pr. 43C, 05112": {
 "lat": 54.709198,
 "lng": 25.228042,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilniaus m. sav.|Vilnius, Oslo g. 12, 04123": {
 "lat": 54.671031,
 "lng": 25.192116,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilniaus m. sav.|Vilnius, P. Žadeikos g. 1A, 06319": {
 "lat": 54.730564,
 "lng": 25.239019,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilniaus m. sav.|Vilnius, Prūsų g. 26A, 02154": {
 "lat": 54.658667,
 "lng": 25.266614,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilniaus m. sav.|Vilnius, Savanorių pr. 118, 03153": {
 "lat": 54.661844,
 "lng": 25.235444,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilniaus m. sav.|Vilnius, Savanorių pr. 119A, 03150": {
 "lat": 54.66267,
 "lng": 25.234738,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilniaus m. sav.|Vilnius, Sporto g. 16A, 09200": {
 "lat": 54.695079,
 "lng": 25.298113,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilniaus m. sav.|Vilnius, Talino g. 2B, 05200": {
 "lat": 54.713356,
 "lng": 25.209436,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilniaus m. sav.|Vilnius, Ukmergės g. 231, 07156": {
 "lat": 54.720222,
 "lng": 25.246298,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilniaus r. sav.|Avižienių k., Sudervės g. 2G, 14198": {
 "lat": 54.76035,
 "lng": 25.201562,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Vilniaus r. sav.|Didžiosios Riešės k., Molėtų g. 15, 14262": {
 "lat": 54.780741,
 "lng": 25.273909,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Šiaulių m. sav.|Šiauliai, Dubijos g. 20A, 77207": {
 "lat": 55.928755,
 "lng": 23.297596,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Šiaulių m. sav.|Šiauliai, Pramonės g. 17, 78136": {
 "lat": 55.90935,
 "lng": 23.319477,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Šiaulių m. sav.|Šiauliai, Tilžės g. 25, 78229": {
 "lat": 55.912681,
 "lng": 23.274004,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Šiaulių m. sav.|Šiauliai, Vilniaus g. 62, 76251": {
 "lat": 55.924804,
 "lng": 23.334034,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Šiaulių r. sav.|Kuršėnai, Plento g. 1, 81115": {
 "lat": 55.999265,
 "lng": 22.989711,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Šilalės r. sav.|Košių II k., Dvaro g. 3, 75226": {
 "lat": 55.484335,
 "lng": 22.587915,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Circle K Lietuva|Šilutės r. sav.|Šilutė, Cintjoniškių g. 15, 99116": {
 "lat": 55.350323,
 "lng": 21.474523,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB DVS Topolis|Rokiškio r. sav.|Rokiškis, Panevėžio g. 7C, 42163": {
 "lat": 55.94306,
 "lng": 25.585657,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Degta|Anykščių r. sav.|Anykščiai, Vienuolio g. 34A, 29148": {
 "lat": 55.522603,
 "lng": 25.088,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Degta|Elektrėnų sav.|Vievis, Kauno g. 55A, 21371": {
 "lat": 54.775219,
 "lng": 24.810495,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Degta|Rokiškio r. sav.|Rokiškis, Respublikos g. 113B, 42150": {
 "lat": 55.946725,
 "lng": 25.591046,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Deguva|Kauno m. sav.|Kaunas, Raudondvario pl. 234, 47158": {
 "lat": 54.921086,
 "lng": 23.825922,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Deliuvis|Panevėžio m. sav.|Panevėžys, G. Petkevičaitės-Bitės g. 35C, 37138": {
 "lat": 55.722417,
 "lng": 24.342186,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Deliuvis|Panevėžio m. sav.|Panevėžys, Pušaloto g. 140, 35100": {
 "lat": 55.746568,
 "lng": 24.329982,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Deliuvis|Panevėžio m. sav.|Panevėžys, S. Kerbedžio g. 2, 35135": {
 "lat": 55.743184,
 "lng": 24.342499,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Dujotena|Utenos r. sav.|Utena, Molėtų g. 94, 28106": {
 "lat": 55.498438,
@@ -1988,7 +2346,7 @@
 "o": 1,
 "q": "gyvenviete",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Dujovita|Kauno m. sav.|Kaunas, Islandijos pl. 191D, 49170": {
 "lat": 54.931494,
@@ -1996,27 +2354,31 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Dujovita|Kauno m. sav.|Kaunas, Jonavos g. 110, 44136": {
 "lat": 54.913328,
 "lng": 23.911651,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Dujovita|Kėdainių r. sav.|Kėdainiai, Basanavičiaus g. 91E, 57356": {
 "lat": 55.278109,
 "lng": 23.959972,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB EU Verslas|Mažeikių r. sav.|Mažeikiai, Viekšnių g. 24, 89235": {
 "lat": 56.304227,
 "lng": 22.360251,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB EU Verslas|Plungės r. sav.|Jovaišiškės k., Telšių g. 127, 90107": {
 "lat": 55.91053,
@@ -2024,7 +2386,7 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB EU Verslas|Plungės r. sav.|Plungė, Rietavo g. 109, 90106": {
 "lat": 55.890459,
@@ -2032,7 +2394,7 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB EU Verslas|Plungės r. sav.|Plungė, Stoties g. 7C, 90115": {
 "lat": 55.921139,
@@ -2040,121 +2402,151 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Alytaus m. sav.|Alytus, Ūdrijos g. 2, 62402": {
 "lat": 54.408141,
 "lng": 24.016647,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Emsi|Biržų r. sav.|Biržai, Jaunimo g. 2a, 41168": {
 "lat": 56.207671,
 "lng": 24.770803,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Emsi|Jonavos r. sav.|Jonava, Vasario 16-osios g. 70, 55165": {
 "lat": 55.070863,
 "lng": 24.258854,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Emsi|Kaišiadorių r. sav.|Kaišiadorys, Paukštininkų g. 4a, 56160": {
 "lat": 54.864337,
 "lng": 24.436549,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Emsi|Kauno m. sav.|Kaunas, Armoniškių g. 31, 46401": {
-"lat": 54.862114,
-"lng": 23.845935,
-"o": 1,
-"q": "adresas",
+"lat": 54.85926,
+"lng": 23.837118,
+"q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Kauno m. sav.|Kaunas, Ateities pl. 40B, 52112": {
 "lat": 54.92184,
 "lng": 24.047717,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Emsi|Kauno m. sav.|Kaunas, Draugystės g. 8B, 51262": {
 "lat": 54.908167,
 "lng": 23.992968,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Emsi|Kauno m. sav.|Kaunas, Jonavos g. 292B, 44131": {
 "lat": 54.932427,
 "lng": 23.918039,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Emsi|Kauno m. sav.|Kaunas, Palemono g. 3A, 52159": {
 "lat": 54.901021,
 "lng": 24.031175,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Emsi|Kauno m. sav.|Kaunas, Savanorių pr. 402A, 49281": {
-"lat": 54.928358,
-"lng": 23.97391,
-"q": "osm-degaline",
-"t": "2026-11-15"
+"lat": 54.927502,
+"lng": 23.972213,
+"o": 1,
+"q": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Emsi|Kauno m. sav.|Kaunas, T. Masiulio g. 16A, 52375": {
-"lat": 54.885151,
-"lng": 24.006013,
-"q": "osm-degaline",
-"t": "2026-11-15"
+"lat": 54.898214,
+"lng": 23.904482,
+"o": 1,
+"q": "gyvenviete",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Emsi|Kauno r. sav.|Ilgakiemio k., Kauno g. 25, 53288": {
 "lat": 54.78373,
 "lng": 23.876407,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Kauno r. sav.|Kaunas, Vandžiogalos pl. 86A, 47478": {
 "lat": 54.951532,
 "lng": 23.893635,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Emsi|Kauno r. sav.|Mastaičių k., Marijampolės g. 58, 53285": {
 "lat": 54.80944,
 "lng": 23.853675,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Kauno r. sav.|Žemaitkiemis, S. Krasausko g. 21, 54340": {
 "lat": 54.971632,
 "lng": 23.858812,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Klaipėdos m. sav.|Klaipėda, Minijos g. 154A, 93263": {
 "lat": 55.66877,
 "lng": 21.159301,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Emsi|Klaipėdos m. sav.|Klaipėda, Taikos pr. 124, 94286": {
 "lat": 55.661111,
 "lng": 21.176217,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Emsi|Klaipėdos r. sav.|Jonušų k., Durpyno g. 63, 96173": {
 "lat": 55.711795,
 "lng": 21.265047,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Klaipėdos r. sav.|Kalotės k., Medelyno g. 126, 96332": {
 "lat": 55.832303,
@@ -2162,14 +2554,15 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Kėdainių r. sav.|Juodgirio k. 1, 58212": {
 "lat": 55.197532,
 "lng": 23.625966,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Lazdijų r. sav.|Lazdijų sen., Janaslavo k. 11, 67170": {
 "lat": 54.194736,
@@ -2177,74 +2570,87 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Marijampolės sav.|Igliaukos k., Prienų g. 7, 69117": {
 "lat": 54.557823,
 "lng": 23.656292,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Marijampolės sav.|Marijampolė, Stoties g. 6B, 68110": {
 "lat": 54.565142,
 "lng": 23.368552,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Emsi|Marijampolės sav.|Pietarių k., Kauno g. 165, 68100": {
 "lat": 54.592804,
 "lng": 23.389533,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Marijampolės sav.|Skaisčiūnų k., Europos g. 11, 69338": {
 "lat": 54.558275,
 "lng": 23.275315,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Panevėžio m. sav.|Panevėžys, Nemuno g. 79A, 35189": {
 "lat": 55.731743,
 "lng": 24.340694,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Emsi|Panevėžio r. sav.|Panevėžys, Ramygalos g. 186A, 36224": {
 "lat": 55.710092,
 "lng": 24.37231,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Emsi|Panevėžio r. sav.|Šilagalio k., Panevėžio aplinkl. 12, 38242": {
 "lat": 55.669742,
 "lng": 24.346218,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Pasvalio r. sav.|Pasvalys, Taikos g. 24, 39132": {
 "lat": 56.063662,
 "lng": 24.425768,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Pasvalio r. sav.|Sereikonių k., Baltijos kelio g. 2, 39236": {
 "lat": 55.906401,
 "lng": 24.338757,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Radviliškio r. sav.|Radviliškis, Miško g. 62, 77158": {
 "lat": 55.801777,
 "lng": 23.56378,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Raseinių r. sav.|Ariogala, Žemaičių g. 30, 60255": {
 "lat": 55.257766,
@@ -2252,56 +2658,63 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Raseinių r. sav.|Raščių k. 1A, 60298": {
 "lat": 55.277751,
 "lng": 23.341383,
 "q": "osm-degaline",
+"src": "gyvenviete",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Trakų r. sav.|Lentvaris, Sodų g. 3, 25117": {
 "lat": 54.64337,
 "lng": 25.053254,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Trakų r. sav.|Sausių k., Sausių g. 2, 21401": {
 "lat": 54.707518,
 "lng": 24.995979,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Vilkaviškio r. sav.|Vilkaviškis, S. Nėries g. 38, 70165": {
 "lat": 54.658115,
 "lng": 23.033243,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Vilniaus m. sav.|Vilnius, Gunkliškių g. 2F, 02231": {
 "lat": 54.622777,
 "lng": 25.105006,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Vilniaus m. sav.|Vilnius, Jeruzalės g. 2, 08414": {
 "lat": 54.73986,
 "lng": 25.276171,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Vilniaus m. sav.|Vilnius, Kareivių g. 4, 09109": {
 "lat": 54.717902,
 "lng": 25.295698,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Vilniaus m. sav.|Vilnius, Kirtimų g. 33, 02300": {
 "lat": 54.658916,
@@ -2309,136 +2722,159 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Vilniaus m. sav.|Vilnius, Laisvės pr. 80B, 06125": {
 "lat": 54.723477,
 "lng": 25.232948,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Vilniaus m. sav.|Vilnius, Liepkalnio g. 112A, 02121": {
 "lat": 54.65266,
 "lng": 25.305701,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Vilniaus m. sav.|Vilnius, Pajautos g. 31, 06200": {
 "lat": 54.710143,
 "lng": 25.162053,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Vilniaus m. sav.|Vilnius, Savanorių pr. 225, 02300": {
 "lat": 54.64104,
 "lng": 25.184135,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Vilniaus m. sav.|Vilnius, Spyglių g. 2, 27101": {
 "lat": 54.668402,
 "lng": 25.111677,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Vilniaus r. sav.|Bukiškis, Ukmergės g. 437, 14183": {
 "lat": 54.753617,
 "lng": 25.211747,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Vilniaus r. sav.|Kreivalaužių k., Taikos g. 1, 15166": {
 "lat": 54.835746,
 "lng": 25.460124,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Vilniaus r. sav.|Maišiagala, Mokyklos g. 26, 14243": {
 "lat": 54.873251,
 "lng": 25.073447,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Vilniaus r. sav.|Medininkų k., Pasieniečių g.10, 13192": {
 "lat": 54.549682,
 "lng": 25.68004,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Šiaulių m. sav.|Šiauliai, Sembos g. 5, 78347": {
 "lat": 55.898834,
 "lng": 23.27163,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Emsi|Šilutės r. sav.|Šilutė, Gluosnių g. 4A, 99116": {
 "lat": 55.348776,
 "lng": 21.469189,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Eniris|Akmenės r. sav.|Skabeikių k. 4, 85233": {
 "lat": 56.159958,
 "lng": 22.760938,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Eniris|Akmenės r. sav.|Venta, Plento g. 2, 85302": {
 "lat": 56.194303,
 "lng": 22.677907,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Eniris|Jurbarko r. sav.|Rimšų k., Tauragės g. 29, 74280": {
 "lat": 55.261869,
 "lng": 22.691716,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Eniris|Kaišiadorių r. sav.|Bačkonių k., Pastrėvio g. 1A, 56240": {
 "lat": 54.802313,
 "lng": 24.502111,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Eniris|Kelmės r. sav.|Kelmė, Putvinskio g. 29, 86113": {
 "lat": 55.641261,
 "lng": 22.926883,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Eniris|Kelmės r. sav.|Užventis, Žemaitės g. 52, 86343": {
 "lat": 55.786103,
 "lng": 22.670903,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Eniris|Kretingos r. sav.|Kretinga, Tiekėjų g. 34a, 97187": {
 "lat": 55.884456,
 "lng": 21.22153,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Eniris|Kretingos r. sav.|Laivių k., Platelių g. 1a, 97317": {
 "lat": 56.063091,
 "lng": 21.581981,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Eniris|Kėdainių r. sav.|Ruoščių k. 1, 57109": {
 "lat": 55.323357,
@@ -2446,82 +2882,95 @@
 "o": 1,
 "q": "gyvenviete",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Eniris|Lazdijų r. sav.|Alytaus g. 59, Krosnos k., 67443": {
 "lat": 54.379116,
 "lng": 23.528582,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Eniris|Mažeikių r. sav.|Mažeikiai, Laižuvos g. 82d, 89213": {
 "lat": 56.313365,
 "lng": 22.368162,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Eniris|Pagėgių sav.|Pagėgiai, Klaipėdos g. 6b, 99290": {
 "lat": 55.140426,
 "lng": 21.903404,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Eniris|Plungės r. sav.|Minijos g. 1, Aleksandravo k., 90390": {
 "lat": 55.928894,
 "lng": 21.61991,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Eniris|Plungės r. sav.|Plungė, Dariaus ir Girėno g. 31, 90118": {
 "lat": 55.919884,
 "lng": 21.857074,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Eniris|Prienų r. sav.|Mardosų k., Alytaus pl. 2, 59240": {
 "lat": 54.508707,
 "lng": 23.90986,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Eniris|Raseinių r. sav.|Raseiniai, Jurbarko g. 34, 60180": {
 "lat": 55.370657,
 "lng": 23.119297,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Eniris|Skuodo r. sav.|Stripinių k., Skuodo g. 7, 98347": {
 "lat": 56.283874,
 "lng": 21.83306,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Eniris|Tauragės r. sav.|Skaudvilė, Adakavo g. 1, 73435": {
 "lat": 55.40157,
 "lng": 22.597764,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Eniris|Telšių r. sav.|Rainių k., Telšių g. 2B, 88401": {
 "lat": 55.956538,
 "lng": 22.301153,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Eniris|Telšių r. sav.|Telšiai, Mažeikių g. 1, 87101": {
 "lat": 55.999772,
 "lng": 22.241376,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Eniris|Telšių r. sav.|Tryškiai, Beržų g. 24/Drąsiųjų g. 7, 88155": {
 "lat": 56.074286,
@@ -2529,7 +2978,7 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Eniris|Vilniaus r. sav.|Kalnuotės 1 k. 15130": {
 "lat": 54.914878,
@@ -2537,41 +2986,47 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Eniris|Šilalės r. sav.|Vabalų k., Paršežerio g. 1, 75406": {
 "lat": 55.619503,
 "lng": 22.246165,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Eniris|Šilalės r. sav.|Šilalė, Rytinio Kelio g. 2a, 75122": {
 "lat": 55.485903,
 "lng": 22.199627,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Eniris|Šilutės r. sav.|Žemaičių Naumiestis, Klaipėdos g. 76, 99206": {
 "lat": 55.355239,
 "lng": 21.680072,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB GM Manufacturing Lithuania|Jurbarko r. sav.|Jurbarkas, Muitinės g. 34A, 74106": {
 "lat": 55.076799,
 "lng": 22.751884,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB GM Manufacturing Lithuania|Šakių r. sav.|Girėnų k., Kauno g. 68, 71129": {
 "lat": 54.952714,
 "lng": 23.083272,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Gazimpeksas|Telšių r. sav.|Telšiai, Mažeikių g. 7A, 87101": {
 "lat": 55.997029,
@@ -2579,58 +3034,71 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Gelvybė|Jurbarko r. sav.|Jurbarkas, Knygnešių g. 9, 74212": {
 "lat": 55.085509,
 "lng": 22.745526,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Gelvybė|Jurbarko r. sav.|Jurbarkas, Muitinės g. 32, 74111": {
 "lat": 55.077173,
 "lng": 22.751,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Gelvybė|Jurbarko r. sav.|Jurbarkas, S. Daukanto g. 66, 74170": {
 "lat": 55.082464,
 "lng": 22.788671,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Gelvybė|Jurbarko r. sav.|Seredžius, S. Šimkaus g. 69, 74425": {
-"lat": 55.078822,
-"lng": 23.396654,
-"q": "osm-degaline",
-"t": "2026-11-15"
+"lat": 55.079395,
+"lng": 23.411629,
+"o": 1,
+"q": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Gelvybė|Kėdainių r. sav.|Aristava, Aristavos g. 4, 58111": {
 "lat": 55.297129,
 "lng": 24.077064,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Gelvybė|Vilkaviškio r. sav.|Rūdos k., Marijampolės g. 8, 70313": {
 "lat": 54.601942,
 "lng": 23.19496,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Gelvybė|Šakių r. sav.|Girėnai, Kauno g. 50, 71129": {
 "lat": 54.952753,
 "lng": 23.080309,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Gelvybė|Šakių r. sav.|Kiduliai, Sūduvos g. 3, 71400": {
 "lat": 55.063843,
 "lng": 22.780737,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Gelvybė|Šakių r. sav.|Mozūriškiai, Mozūriškių 10, 71382": {
 "lat": 55.018477,
@@ -2638,14 +3106,15 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Gelvybė|Šakių r. sav.|Šakiai, V. Kudirkos g. 11D, 71124": {
 "lat": 54.954139,
 "lng": 23.024637,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Gindana|Klaipėdos m. sav.|Klaipėda, Priešpilio g. 5, 91240": {
 "lat": 55.706107,
@@ -2653,246 +3122,287 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Jozita|Kauno m. sav.|Kaunas, Baltų pr. 141A, 47126": {
 "lat": 54.922867,
 "lng": 23.869879,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Jozita|Kauno m. sav.|Kaunas, Betygalos g. 8, 47183": {
-"lat": 54.904512,
-"lng": 23.879723,
+"lat": 54.905016,
+"lng": 23.883819,
 "o": 1,
-"q": "adresas",
+"q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Jozita|Kauno m. sav.|Kaunas, Jonavos g. 51, 44131": {
 "lat": 54.93392,
 "lng": 23.917579,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Jozita|Kauno m. sav.|Kaunas, Kuršių g. 13A, 48109": {
 "lat": 54.936118,
 "lng": 23.895941,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Jozita|Kauno m. sav.|Kaunas, Partizanų g. 87G, 50312": {
 "lat": 54.927344,
 "lng": 23.999205,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Jozita|Kauno r. sav.|Garliava, Vytauto g. 111A, 53253": {
 "lat": 54.828209,
 "lng": 23.873085,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Jozita|Kauno r. sav.|Ramučiai, K. Bielinio g. 2A, 54465": {
-"lat": 54.9428,
-"lng": 24.029967,
+"lat": 54.945868,
+"lng": 24.034078,
 "o": 1,
-"q": "adresas",
+"q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Jozita|Kelmės r. sav.|Kelmė, V. Putvinskio g. 37, 86113": {
 "lat": 55.643434,
 "lng": 22.92558,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Jozita|Klaipėdos m. sav.|Klaipėda, Priestočio g. 26, 92228": {
-"lat": 55.719216,
-"lng": 21.141137,
-"q": "osm-degaline",
-"t": "2026-11-15"
+"lat": 55.719055,
+"lng": 21.137163,
+"o": 1,
+"q": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Jozita|Klaipėdos m. sav.|Klaipėda, Taikos pr. 157, 94285": {
 "lat": 55.660874,
 "lng": 21.178123,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Jozita|Klaipėdos r. sav.|Gargždai, Gamyklos g. 1, 96155": {
 "lat": 55.706481,
 "lng": 21.363523,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Jozita|Klaipėdos r. sav.|Slengių k., Šilelių g. 1, 92338": {
 "lat": 55.751451,
 "lng": 21.173237,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Jozita|Klaipėdos r. sav.|Trepkalnių k., Mokyklos g. 2, 96278": {
 "lat": 55.608522,
 "lng": 21.594013,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Jozita|Pakruojo r. sav.|Kuosiškių k. 4, 83169": {
 "lat": 55.965798,
 "lng": 23.879709,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Jozita|Panevėžio m. sav.|Panevėžys, S. Kerbedžio g. 7F, 35104": {
-"lat": 55.744776,
-"lng": 24.34628,
+"lat": 55.743571,
+"lng": 24.352027,
 "o": 1,
-"q": "adresas",
+"q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Jozita|Plungės r. sav.|Varkaliai, Žemaičių g. 2A, 90105": {
 "lat": 55.897036,
 "lng": 21.821426,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Jozita|Raseinių r. sav.|Raseiniai, Liepų g. 10E, 60119": {
 "lat": 55.391527,
 "lng": 23.127435,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Jozita|Raseinių r. sav.|Raseiniai, Maironio g. 78b, 60120": {
 "lat": 55.389992,
 "lng": 23.130763,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Jozita|Tauragės r. sav.|Papušynės k., Šilalės g. 105, 72175": {
 "lat": 55.271716,
 "lng": 22.286496,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Jozita|Vilniaus m. sav.|Vilnius, Baltosios Vokės g. 35, 02243": {
 "lat": 54.613713,
 "lng": 25.184051,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Jozita|Vilniaus m. sav.|Vilnius, Parko g. 64, 11225": {
 "lat": 54.685908,
 "lng": 25.430592,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Jozita|Vilniaus m. sav.|Vilnius, Pramonės g. 18, 11115": {
 "lat": 54.695952,
 "lng": 25.43208,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Jozita|Vilniaus m. sav.|Vilnius, Ukmergės g. 130, 08100": {
 "lat": 54.703204,
 "lng": 25.257448,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Jozita|Vilniaus r. sav.|Rudamina, Jašiūnų g. 2, 13255": {
 "lat": 54.597204,
 "lng": 25.315157,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Jozita|Šiaulių m. sav.|Šiauliai, Architektų g. 80, 78171": {
 "lat": 55.924565,
 "lng": 23.279448,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Jozita|Šiaulių m. sav.|Šiauliai, Girulių g. 1, 78132": {
 "lat": 55.922144,
 "lng": 23.297114,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Jozita|Šiaulių r. sav.|Toliočiai, Plento g. 2B, 76322": {
 "lat": 55.954347,
 "lng": 23.255956,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Jozita|Šilalės r. sav.|Šolių k., Pietinio Kelio g. 9, 75126": {
 "lat": 55.485331,
 "lng": 22.170538,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Jozita|Šilutės r. sav.|Traksėdžių k., Klaipėdos. 60, 99104": {
 "lat": 55.376939,
 "lng": 21.470451,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Jozita|Šilutės r. sav.|Šilutė, Šiaurės g. 1, 99116": {
 "lat": 55.35595,
 "lng": 21.46861,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Junasa, Degalinė|Šiaulių m. sav.|Šiauliai, Bačiūnų g. 12a, 77109": {
 "lat": 55.897885,
 "lng": 23.351706,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Junasa, Degalinė|Šiaulių m. sav.|Šiauliai, Žemaitės g. 131c, 76175": {
 "lat": 55.948082,
 "lng": 23.320396,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Junasa, Degalinė|Šiaulių r. sav.|Gruzdžiai, M. Katiliškio g. 50, 81428": {
 "lat": 56.099199,
 "lng": 23.26583,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Kenaoil|Vilniaus r. sav.|Kena, Miško g. 6, 13146": {
 "lat": 54.646069,
 "lng": 25.625138,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Kriketas|Trakų r. sav.|Trakai, Senkelio g. 13, 21107": {
 "lat": 54.630629,
 "lng": 24.92215,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Leosta|Telšių r. sav.|Luokė, Telšių g. 66, 88236": {
 "lat": 55.894681,
@@ -2900,14 +3410,15 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Littaura|Tauragės r. sav.|Tauragė, Pramonės g. 6, 72324": {
 "lat": 55.238257,
 "lng": 22.297783,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Madalva|Plungės r. sav.|Plungė, Lentpjūvės g. 10A, 90118": {
 "lat": 55.924598,
@@ -2915,28 +3426,31 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Madalva|Tauragės r. sav.|Tauragė, Dariaus ir Girėno g. 49, 72221": {
 "lat": 55.258212,
 "lng": 22.294567,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Madalva|Tauragės r. sav.|Tauragė, Pramonės g. 10A, 72359": {
 "lat": 55.236251,
 "lng": 22.297101,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Madalva|Tauragės r. sav.|Žygaičių k., Žygaičių g. 2, 73282": {
 "lat": 55.304017,
 "lng": 22.041082,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Madalva|Šilalės r. sav.|Gineikių k., 75445": {
 "lat": 55.559056,
@@ -2944,47 +3458,55 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Medelsta|Vilniaus r. sav.|Pagirių k., Durpių g. 45, 14118": {
 "lat": 54.569169,
 "lng": 25.18781,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Melkasta|Lazdijų r. sav.|Kalvelių k., Lazdijų pl. 29, 67333": {
 "lat": 54.106044,
 "lng": 23.673755,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Melkasta|Lazdijų r. sav.|Seirijai, Algirdo g. 35A, 67227": {
 "lat": 54.239512,
 "lng": 23.82307,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Melkasta|Vilkaviškio r. sav.|Gulbiniškių k. 7, 70481": {
 "lat": 54.711848,
 "lng": 23.207792,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Mindega|Kėdainių r. sav.|Šėta, Ramygalos g. 55, 58129": {
 "lat": 55.290551,
 "lng": 24.25257,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Naftos dujos|Mažeikių r. sav.|Mažeikiai, Algirdo g. 42, 89101": {
 "lat": 56.318439,
 "lng": 22.318917,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Naftos dujos|Mažeikių r. sav.|Mažeikiai, Daukšos g. 29 / Žemaitijos g. 69, 89132": {
 "lat": 56.304976,
@@ -2992,7 +3514,7 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Naftos dujos|Švenčionių r. sav.|Švenčionys, Mokyklos g. 23, 18111": {
 "lat": 55.135108,
@@ -3000,98 +3522,119 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Naftrus|Pakruojo r. sav.|Degučių k., Topolių g. 1, 83291": {
 "lat": 55.970747,
 "lng": 23.587348,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Naftrus|Raseinių r. sav.|Raseiniai, Vilniaus g. 3B, 60187": {
 "lat": 55.370315,
 "lng": 23.13212,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Naftrus|Raseinių r. sav.|Slabados k., Pievų g. 19, 60109": {
 "lat": 55.386097,
 "lng": 23.04309,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Naftrus|Raseinių r. sav.|Ylių k., Šilo g. 1, 60389": {
 "lat": 55.412998,
 "lng": 22.821887,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Narjanta|Anykščių r. sav.|Pumpučiai, Pumpučių g. 25, 29253": {
 "lat": 55.424305,
 "lng": 24.920495,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Narjanta|Anykščių r. sav.|Sausalaukės k. 2, 29345": {
 "lat": 55.675792,
 "lng": 25.358627,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Narjanta|Anykščių r. sav.|Troškūnai, Vilniaus g. 32, 29306": {
 "lat": 55.584861,
 "lng": 24.87846,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Narjanta|Biržų r. sav.|Vabalninkas, S. Nėries g. 35, 41341": {
 "lat": 55.974982,
 "lng": 24.740128,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "gyvenviete",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Narjanta|Kupiškio r. sav.|Aleksandrijos k., Kikonių g. 10, 40335": {
 "lat": 55.824515,
 "lng": 25.001078,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Narjanta|Kupiškio r. sav.|Dvariškių vs. 2, 40402": {
 "lat": 55.77334,
 "lng": 24.754398,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Alytaus m. sav.|Alytus, Santaikos g. 34A, 62123": {
 "lat": 54.387085,
 "lng": 24.026292,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Alytaus m. sav.|Alytus, Ūdrijos g. 31, 62411": {
 "lat": 54.408962,
 "lng": 24.005187,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Elektrėnų sav.|Elektrėnai, Sabališkių g. 1U, 26141": {
 "lat": 54.78944,
 "lng": 24.672756,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Jonavos r. sav.|Gudžionių k., Šilų sen., Plento g. 7, 55462": {
 "lat": 55.095503,
 "lng": 24.312665,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Kalvarijos sav.|N. Valios k., Europos g. 6, 69270": {
 "lat": 54.315289,
@@ -3099,256 +3642,327 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Kalvarijos sav.|Salaperaugio k., Europos g. 1, 69286": {
 "lat": 54.329861,
 "lng": 23.150233,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Kauno m. sav.|Kaunas, Ateities pl. 50B, 52106": {
 "lat": 54.926198,
 "lng": 24.060328,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Kauno m. sav.|Kaunas, Birželio 23-iosios g. 23A, 50220": {
 "lat": 54.916253,
 "lng": 23.954042,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Kauno m. sav.|Kaunas, Europos pr. 43, 46329": {
 "lat": 54.875338,
 "lng": 23.911478,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Kauno m. sav.|Kaunas, Islandijos pl. 191E, 49168": {
 "lat": 54.931419,
 "lng": 23.950806,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Kauno m. sav.|Kaunas, Jonavos g. 110, 44136": {
 "lat": 54.913328,
 "lng": 23.911651,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Kauno m. sav.|Kaunas, Kuršių g. 1, 48106": {
 "lat": 54.936167,
 "lng": 23.885321,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Kauno m. sav.|Kaunas, Pramonės pr. 6A, 51267": {
 "lat": 54.909942,
 "lng": 23.983767,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Kauno m. sav.|Kaunas, R. Kalantos g. 27, 52303": {
 "lat": 54.89507,
 "lng": 23.985918,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Kauno m. sav.|Kaunas, Raudondvario pl. 103, 47185": {
 "lat": 54.906862,
 "lng": 23.872822,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Kauno m. sav.|Kaunas, Savanorių pr. 441C, 49185": {
 "lat": 54.929352,
 "lng": 23.973469,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Kauno m. sav.|Kaunas, Taikos pr. 80A, 50441": {
 "lat": 54.9121,
 "lng": 23.972615,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Kauno m. sav.|Kaunas, Tunelio g. 26, 44391": {
 "lat": 54.894833,
 "lng": 23.944192,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Kauno m. sav.|Kaunas, Vakarinis aplinkkelis 18, 48182": {
-"lat": 54.913328,
-"lng": 23.911651,
+"lat": 54.933809,
+"lng": 23.867742,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Kauno m. sav.|Kaunas, Veiverių g. 132D, 46337": {
 "lat": 54.875708,
 "lng": 23.89092,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Kauno m. sav.|Kaunas, Žemaičių pl. 26, 48256": {
 "lat": 54.925531,
 "lng": 23.891793,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Kauno r. sav.|Kumpių k., Vakarų g. 14, 47425": {
 "lat": 54.949877,
 "lng": 23.873822,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Kauno r. sav.|Ramučių k., Vijoklių g. 1C, 54467": {
 "lat": 54.948352,
 "lng": 24.01783,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Klaipėdos m. sav.|Klaipėda, Artojo g. 2, 92105": {
 "lat": 55.717653,
 "lng": 21.151688,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Klaipėdos m. sav.|Klaipėda, Minijos g. 119, 93231": {
 "lat": 55.684387,
 "lng": 21.149622,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Klaipėdos m. sav.|Klaipėda, Plieno g. 1, 95112": {
 "lat": 55.672953,
 "lng": 21.200983,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Klaipėdos m. sav.|Klaipėda, Smiltelės g. 17, 95188": {
-"lat": 55.670077,
-"lng": 21.192885,
+"lat": 55.717653,
+"lng": 21.151688,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "gyvenviete",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Klaipėdos m. sav.|Klaipėda, Taikos pr. 60, 93225": {
 "lat": 55.688911,
 "lng": 21.155177,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Klaipėdos m. sav.|Klaipėda, Šilutės pl. 30, 91177": {
 "lat": 55.693081,
 "lng": 21.174775,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Klaipėdos m. sav.|Klaipėda, Šilutės pl. 5C, 91109": {
 "lat": 55.703183,
 "lng": 21.164792,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Klaipėdos r. sav.|Jakų k., Vilniaus pl. 9, 96322": {
 "lat": 55.706605,
 "lng": 21.238546,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Klaipėdos r. sav.|Sudmantų k., Sendvario g. 2, 96327": {
 "lat": 55.706074,
 "lng": 21.202593,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Kėdainių r. sav.|Kėdainiai, J. Basanavičiaus g. 91E, 57356": {
 "lat": 55.278109,
 "lng": 23.959972,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Marijampolės sav.|Marijampolė, Stoties g. 4C, 68112": {
 "lat": 54.560364,
 "lng": 23.365926,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Marijampolės sav.|Marijampolė, Vilkaviškio g. 61D, 68153": {
 "lat": 54.56261,
 "lng": 23.332366,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Mažeikių r. sav.|Mažeikiai, M. Daukšos g. 29, 89132": {
 "lat": 56.301233,
 "lng": 22.349841,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Molėtų r. sav.|Molėtai, Aplinkkelio g. 165, 33134": {
 "lat": 55.221585,
 "lng": 25.436493,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Panevėžio m. sav.|Panevežys, Klaipėdos g. 144B, 37376": {
 "lat": 55.73063,
 "lng": 24.316109,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Panevėžio m. sav.|Panevėžys, Klaipėdos g. 66, 35193": {
 "lat": 55.727745,
 "lng": 24.348805,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Panevėžio m. sav.|Panevėžys, Klaipėdos g. 81, 37106": {
 "lat": 55.728377,
 "lng": 24.332338,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Panevėžio m. sav.|Panevėžys, Margirio g. 1B, 36248": {
 "lat": 55.719396,
 "lng": 24.348867,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Panevėžio m. sav.|Panevėžys, Ramygalos g. 145B, 36225": {
 "lat": 55.709517,
 "lng": 24.374754,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Neste Lietuva|Panevėžio r. sav.|Šilagalio k., Panevėžio aplinkl. 22, 36258": {
 "lat": 55.670389,
 "lng": 24.348431,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Panevėžio r. sav.|Šilagalio k., Panevėžio aplinkl. 7, 36224": {
 "lat": 55.670389,
 "lng": 24.348431,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Pasvalio r. sav.|Raubonių k., Ąžuolpamūšio g. 1A, 39447": {
 "lat": 56.115276,
 "lng": 24.470681,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Radviliškio r. sav.|Radviliškis, Versmės g. 2, 82197": {
 "lat": 55.815278,
@@ -3356,266 +3970,303 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Raseinių r. sav.|Ylių k., Pušyno g. 11, 60389": {
 "lat": 55.411646,
 "lng": 22.83106,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Tauragės r. sav.|Tauragė, Dariaus ir Girėno g. 130A, 72194": {
 "lat": 55.265316,
 "lng": 22.308834,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Telšių r. sav.|Gaudikaičių k., Šiaulių pl. 1A, 87100": {
 "lat": 56.004969,
 "lng": 22.240229,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Ukmergės r. sav.|Ukmergė, Kauno g. 45B, 20119": {
 "lat": 55.242038,
 "lng": 24.742922,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Utenos r. sav.|Utena, J. Basanavičiaus g. 129, 28216": {
 "lat": 55.505113,
 "lng": 25.624637,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Utenos r. sav.|Utena, Kupiškio g. 12, 28135": {
 "lat": 55.481531,
 "lng": 25.5789,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Architektų g. 130, 04216": {
 "lat": 54.68084,
 "lng": 25.207628,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Dariaus ir Girėno g. 17, 02169": {
 "lat": 54.655065,
 "lng": 25.270667,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Eišiškių pl. 82, 02200": {
 "lat": 54.621285,
 "lng": 25.24294,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Erfurto g. 41, 04226": {
 "lat": 54.672591,
 "lng": 25.198263,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Gariūnų g. 55, 02300": {
 "lat": 54.658288,
 "lng": 25.158852,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Geležinio Vilko g. 37A, 08104": {
 "lat": 54.701579,
 "lng": 25.263713,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Geležinio Vilko g. 41, 09300": {
 "lat": 54.704173,
 "lng": 25.267084,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Geležinio Vilko g. 63, 08104": {
 "lat": 54.711947,
 "lng": 25.270644,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, J. Tiškevičiaus g. 19, 02231": {
 "lat": 54.624255,
 "lng": 25.11171,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Justiniškių g. 14B, 05131": {
 "lat": 54.705121,
 "lng": 25.214994,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Kauno g. 26, 03212": {
 "lat": 54.671609,
 "lng": 25.270089,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Kedrų g. 2, 03159": {
 "lat": 54.677209,
 "lng": 25.255644,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Molėtų pl. 8, 08426": {
 "lat": 54.75485,
 "lng": 25.271346,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, P. Lukšio g. 22, 09108": {
 "lat": 54.711904,
 "lng": 25.293066,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Panerių g. 42, 03202": {
 "lat": 54.667999,
 "lng": 25.264717,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Parodų g. 1A, 04133": {
 "lat": 54.673418,
 "lng": 25.224061,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Pilaitės pr. 27, 06269": {
 "lat": 54.708845,
 "lng": 25.189749,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Rygos g. 2, 05259": {
 "lat": 54.715634,
 "lng": 25.228708,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, S. Stanevičiaus g. 3, 07131": {
 "lat": 54.72149,
 "lng": 25.256115,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Savanorių pr. 187, 02300": {
 "lat": 54.658288,
 "lng": 25.158852,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Savanorių pr. 220A, 02301": {
 "lat": 54.644204,
 "lng": 25.207018,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Servečės g. 2, 02121": {
 "lat": 54.633668,
 "lng": 25.304716,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Subačiaus g. 64, 11342": {
 "lat": 54.676777,
 "lng": 25.309607,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Talino g. 2C, 05200": {
 "lat": 54.713882,
 "lng": 25.209003,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Ukmergės g. 296, 12105": {
 "lat": 54.736144,
 "lng": 25.231125,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Žirmūnų g. 54C, 08233": {
 "lat": 54.706733,
 "lng": 25.304138,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Žirmūnų g. 68B, 09113": {
 "lat": 54.717552,
 "lng": 25.304486,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Vilniaus m. sav.|Vilnius, Žirnių g. 17, 02118": {
 "lat": 54.656647,
 "lng": 25.292038,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Šiaulių m. sav.|Šiauliai, Dubijos g. 18A, 77172": {
 "lat": 55.929271,
 "lng": 23.294334,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Šiaulių m. sav.|Šiauliai, Gegužių g. 28, 78348": {
 "lat": 55.906051,
 "lng": 23.259504,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Šiaulių m. sav.|Šiauliai, Tilžės g. 72, 78140": {
 "lat": 55.920259,
 "lng": 23.292992,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Šilalės r. sav.|Katyčių k., 75493": {
 "lat": 55.534585,
@@ -3623,19 +4274,23 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Neste Lietuva|Švenčionių r. sav.|Pabradė, Vilniaus g. 94, 18177": {
 "lat": 54.97882,
 "lng": 25.756225,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Nostrada|Kalvarijos sav.|Kazlavo k. 4, 69285": {
-"q": "none",
+"lat": 54.328708,
+"lng": 23.147536,
+"q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Osijos dujos|Marijampolės sav.|Marijampolė, Gėlių g. 25,": {
 "lat": 54.551735,
@@ -3643,50 +4298,55 @@
 "o": 1,
 "q": "adresas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Osijos dujos|Marijampolės sav.|Marijampolė, Gėlyno g. 25,": {
-"lat": 54.584074,
-"lng": 23.360962,
+"lat": 54.582417,
+"lng": 23.362969,
 "o": 1,
-"q": "adresas",
+"q": "gatve",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Osijos dujos|Vilkaviškio r. sav.|Osijos k., Pamiškės g. 1, 70205": {
 "lat": 54.636502,
 "lng": 23.006519,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Pakelės namai|Pasvalio r. sav.|Škilinpamūšio k., Liepų g. 4, 39421": {
 "lat": 56.267163,
 "lng": 24.370659,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Pakelės namai|Pasvalio r. sav.|Škilinpamūšio k., Pasienio g. 10, 39421": {
 "lat": 56.272109,
 "lng": 24.368035,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Plovimo sistemos|Šiaulių m. sav.|Šiauliai, Gegužių g. 28, 78322": {
 "lat": 55.906051,
 "lng": 23.259504,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Plungės lagūna|Rietavo sav.|Rietavas, Plungės g. 32, 90313": {
 "lat": 55.734977,
 "lng": 21.924072,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Prie Luksto|Telšių r. sav.|Telšiai, Masčio g. 21, 87139": {
 "lat": 55.976496,
@@ -3694,119 +4354,143 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Propano ir butano dujų centras|Ignalinos r. sav.|Ignalina, Švenčionių g. 35, 30132": {
 "lat": 55.327181,
 "lng": 26.17448,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Propano ir butano dujų centras|Švenčionių r. sav.|Cirkliškio k., Aukštaičių g. 2A, 18122": {
 "lat": 55.120015,
 "lng": 26.131442,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Regusa|Kauno m. sav.|Kaunas, Marijampolės pl. 20, 46147": {
 "lat": 54.850192,
 "lng": 23.965745,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Regusa|Kazlų Rūdos sav.|Jūrės k., Medelyno g. 4A, 69446": {
 "lat": 54.769267,
 "lng": 23.486562,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Regusa|Kazlų Rūdos sav.|Kazlų Rūda, S. Daukanto g. 19D, 69430": {
 "lat": 54.739294,
 "lng": 23.496223,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Regusa|Marijampolės sav.|Gavaltuvos k., Sodo g. 11, 69370": {
 "lat": 54.676702,
 "lng": 23.417928,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Regusa|Vilkaviškio r. sav.|Kybartai, J. Basanavičiaus g. 45A, 70417": {
 "lat": 54.63865,
 "lng": 22.76322,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Akmenės r. sav.|Akmenės I k., Plento g. 1, 85380": {
 "lat": 56.238577,
 "lng": 22.750722,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Akmenės r. sav.|Naujoji Akmenė, V. Kudirkos g. 18A, 85171": {
 "lat": 56.317211,
 "lng": 22.88483,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Saurida|Akmenės r. sav.|Pašakarnių k. Pašakarnių g. 1, 85271": {
 "lat": 56.298102,
 "lng": 22.885099,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Alytaus m. sav.|Alytus, Miškininkų g. 7, 62201": {
 "lat": 54.411314,
 "lng": 24.06765,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Saurida|Alytaus m. sav.|Alytus, Pramonės g. 5, 62323": {
 "lat": 54.42311,
 "lng": 24.018735,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Saurida|Jurbarko r. sav.|Pašvenčio k., 74218": {
 "lat": 55.082183,
 "lng": 22.610936,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "gatve",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Saurida|Kaišiadorių r. sav.|Rumšiškės, Lekavičiaus g. 71, 56337": {
 "lat": 54.871843,
 "lng": 24.213187,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Saurida|Kalvarijos sav.|Kreivukės k., 69232": {
 "lat": 54.407296,
 "lng": 23.221011,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Kalvarijos sav.|Kušliškių k. Suvalkijos g. 15, 69200": {
 "lat": 54.43621,
 "lng": 23.205005,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Kauno m. sav.|Kaunas, Garažų g. 20, 50314": {
-"lat": 54.923686,
-"lng": 24.000832,
+"lat": 54.898214,
+"lng": 23.904482,
 "o": 1,
-"q": "adresas",
+"q": "gyvenviete",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Kauno m. sav.|Neveronių k., Martinavos g. 1, 54475": {
 "lat": 54.931224,
@@ -3814,84 +4498,95 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Kauno r. sav.|Babtai, Vandžiogalos g. 3, 54328": {
 "lat": 55.096966,
 "lng": 23.806249,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Saurida|Kauno r. sav.|Domeikava, Muitinės g. 2, 54359": {
 "lat": 54.956397,
 "lng": 23.904919,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Saurida|Klaipėdos r. sav.|Klaipėda, Jūrininkų pr. 29, 95225": {
 "lat": 55.656837,
 "lng": 21.183759,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Lazdijų r. sav.|Panarvės k., 67168": {
 "lat": 54.250702,
 "lng": 23.546831,
 "o": 1,
-"q": "adresas",
+"q": "gatve",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Marijampolės sav.|Marijampolė, Statybininkų g. 8, 68108": {
-"lat": 54.577893,
-"lng": 23.376915,
+"lat": 54.576493,
+"lng": 23.3777,
 "o": 1,
-"q": "adresas",
+"q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Prienų r. sav.|Ignacavos k., Kauno pl. 18, 59149": {
 "lat": 54.646512,
 "lng": 23.930076,
 "q": "osm-degaline",
+"src": "gyvenviete",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Prienų r. sav.|Mauručiai, Liepų g. 20, 59290": {
 "lat": 54.771033,
 "lng": 23.765466,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Radviliškio r. sav.|Radviliškis, Gedimino g. 50C, 82482": {
 "lat": 55.814602,
 "lng": 23.553195,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Radviliškio r. sav.|Velžių k., Radviliškio plentas 2, 82218": {
 "lat": 55.773185,
 "lng": 23.656166,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Skuodo r. sav.|Skuodas, Vytauto g. 20, 98123": {
 "lat": 56.260729,
 "lng": 21.529823,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Ukmergės r. sav.|Pageležių k, 20278": {
 "lat": 55.164878,
 "lng": 24.515764,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Ukmergės r. sav.|Ukmergė, Kareivinių g. 64, 20184": {
 "lat": 55.256208,
@@ -3899,14 +4594,15 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Ukmergės r. sav.|Ukmergė, Vilniaus g. 122, 20168": {
 "lat": 55.233546,
 "lng": 24.781257,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Vilniaus m. sav.|Vilnius, Jankiškių g. 43a, 02300": {
 "lat": 54.658916,
@@ -3914,124 +4610,143 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Vilniaus m. sav.|Vilnius, Rygos g. 2, 05264": {
 "lat": 54.715634,
 "lng": 25.228708,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Vilniaus m. sav.|Vilnius, Stanevičiaus g. 3A, 07131": {
 "lat": 54.721962,
 "lng": 25.255519,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Vilniaus r. sav.|Zujūnai, Buivydiškių g. 1A, 14160": {
 "lat": 54.723703,
 "lng": 25.191031,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Vilniaus r. sav.|Čekoniškių k., 14207": {
-"lat": 54.737283,
-"lng": 25.09361,
-"o": 1,
-"q": "adresas",
+"lat": 54.737357,
+"lng": 25.079826,
+"q": "osm-degaline",
+"src": "gatve",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Visagino sav.|Visaginas, Kosmoso g. 1, 31142": {
 "lat": 55.597425,
 "lng": 26.403398,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Šakių r. sav.|Lėkėčių k., Šakių g. 3, 71229": {
 "lat": 54.977414,
 "lng": 23.483669,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Šiaulių m. sav.|Šiauliai, Pramonės g. 7C, 78140": {
 "lat": 55.916474,
 "lng": 23.301953,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Šiaulių m. sav.|Šiauliai, Vilniaus g. 373A, 76326": {
 "lat": 55.942819,
 "lng": 23.281625,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Saurida|Šilalės r. sav.|Šilalė, Rytinio kelio g. 19, 75133": {
 "lat": 55.491881,
 "lng": 22.199283,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Skulas|Alytaus r. sav.|Likiškėlių k., Kalninės g. 5, 62442": {
 "lat": 54.381862,
 "lng": 23.99309,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Skulas|Alytaus r. sav.|Simnas, Alytaus g. 48, 64313": {
 "lat": 54.383845,
 "lng": 23.659403,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Skulas|Kauno m. sav.|Kaunas, Ašigalio g. 1A, 49161": {
 "lat": 54.933389,
 "lng": 23.943533,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Skulas|Kauno m. sav.|Kaunas, Marvelės g. 106D, 46205": {
 "lat": 54.901261,
 "lng": 23.854435,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Skulas|Kauno r. sav.|Virbališkių k., Verslo g. 2, 53458": {
 "lat": 54.902569,
 "lng": 23.762834,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Skulas|Pasvalio r. sav.|Pasvalys, Mūšos g. 2E, 39105": {
 "lat": 56.069531,
 "lng": 24.387881,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Skulas|Vilniaus m. sav.|Vilnius, J.Kazlausko g. 33, 08314": {
 "lat": 54.72239,
 "lng": 25.271059,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Stateta|Alytaus m. sav.|Alytus, Santaikos g. 28 B, 62123": {
 "lat": 54.38752,
 "lng": 24.031866,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Stateta|Alytaus r. sav.|Alytaus k., 64464": {
 "lat": 54.407139,
@@ -4039,170 +4754,199 @@
 "o": 1,
 "q": "adresas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Stateta|Alytaus r. sav.|Kaniūkų k., 64104": {
-"lat": 54.365305,
-"lng": 24.106088,
-"o": 1,
-"q": "adresas",
+"lat": 54.366192,
+"lng": 24.121841,
+"q": "osm-degaline",
+"src": "gatve",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Stateta|Alytaus r. sav.|Miklusėnai, Kauno g. 1, 62461": {
 "lat": 54.428055,
 "lng": 24.001241,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Stateta|Kalvarijos sav.|Kreivukė, Turgaus g. 4, 69232": {
 "lat": 54.410821,
 "lng": 23.206909,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Stateta|Kauno r. sav.|Ramučių k., Erdvės g. 78, 54463": {
 "lat": 54.928919,
 "lng": 24.038153,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Stateta|Klaipėdos m. sav.|Klaipėda, Minijos g. 90, 93239": {
-"lat": 55.6851,
-"lng": 21.147092,
+"lat": 55.687592,
+"lng": 21.144858,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Stateta|Kupiškio r. sav.|Kupiškis, Panevėžio g. 9, 40134": {
 "lat": 55.826051,
 "lng": 24.979937,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Stateta|Marijampolės sav.|Kantališkių k., 69841": {
-"lat": 54.888137,
-"lng": 23.786984,
-"o": 1,
-"q": "adresas",
+"lat": 54.634346,
+"lng": 23.43634,
+"q": "osm-degaline",
+"src": "gyvenviete",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Stateta|Panevėžio r. sav.|Paliūniškio k., Žemdirbių g. 15, 38440": {
 "lat": 55.787777,
 "lng": 24.439443,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Stateta|Prienų r. sav.|Gustaičių k., 59296": {
-"lat": 54.503038,
-"lng": 23.375134,
+"lat": 54.749946,
+"lng": 23.738313,
 "o": 1,
-"q": "adresas",
+"q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Stateta|Utenos r. sav.|Utena, Palangos g. 66, 28140": {
 "lat": 55.498552,
 "lng": 25.58397,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Stateta|Vilniaus m. sav.|Vilnius, Ukmergės g. 246, 06120": {
 "lat": 54.723219,
 "lng": 25.241427,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Tomega|Druskininkų sav.|Druskininkai, Gardino g. 98, 66225": {
 "lat": 53.990211,
 "lng": 24.005677,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Tomega|Šalčininkų r. sav.|Dumblės k., 17178": {
-"lat": 55.248859,
-"lng": 25.771358,
+"lat": 54.15368,
+"lng": 25.002162,
 "o": 1,
-"q": "adresas",
+"q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Tomega|Šalčininkų r. sav.|Tartoko k., 17127": {
 "lat": 54.456879,
 "lng": 25.279466,
 "o": 1,
-"q": "adresas",
+"q": "gatve",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Topgas|Kaišiadorių r. sav.|Kaišiadorys, Paukštininkų g. 13, 56161": {
-"lat": 54.865105,
-"lng": 24.434153,
+"lat": 54.860234,
+"lng": 24.454479,
 "o": 1,
-"q": "adresas",
+"q": "gyvenviete",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Topgas|Kupiškio r. sav.|Slavinčiškis, Slavinčiškio g. 18, 40333": {
-"lat": 55.831367,
-"lng": 25.019975,
-"q": "osm-degaline",
-"t": "2026-11-15"
+"lat": 55.834399,
+"lng": 25.009277,
+"o": 1,
+"q": "gyvenviete",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Trevena|Klaipėdos m. sav.|Klaipėda, Kretingos g. 28A, 92211": {
 "lat": 55.728446,
 "lng": 21.132589,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Trevena|Klaipėdos m. sav.|Klaipėda, Minijos g. 152A, 93263": {
 "lat": 55.669665,
 "lng": 21.158614,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Trevena|Klaipėdos r. sav.|Dituvos k., Šv. Kristoforo g. 4, 96357": {
 "lat": 55.581651,
 "lng": 21.285336,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Trevena|Klaipėdos r. sav.|Gargždai, Klaipėdos g. 39, 96157": {
 "lat": 55.712512,
 "lng": 21.381957,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Trevena|Klaipėdos r. sav.|Gargždai, Kretingos pl. 1, 96105": {
 "lat": 55.713769,
 "lng": 21.386589,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Trevena|Klaipėdos r. sav.|Pyktiškės k., Veiviržėnų g. 29, 96303": {
 "lat": 55.687136,
 "lng": 21.693441,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Trevena|Kretingos r. sav.|Darbėnai, Laisvės g. 15, 97264": {
 "lat": 56.024845,
 "lng": 21.264989,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Trevena|Kretingos r. sav.|Kretinga, Vilniaus g. 29B, 97101": {
 "lat": 55.896966,
 "lng": 21.2444,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Trevena|Rietavo sav.|Rietavas, Lėgų k. 1, 90305": {
 "lat": 55.637328,
@@ -4210,43 +4954,47 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Trevena|Rietavo sav.|Vatušių k., Kvėdarnos g. 2, 90307": {
 "lat": 55.718442,
 "lng": 21.932375,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Trevena|Šilutės r. sav.|Saugų k., Tilžės g. 21, 99409": {
 "lat": 55.464594,
 "lng": 21.47036,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Trevena|Šilutės r. sav.|Žemaitkiemio k., Liepų g. 4, 99317": {
 "lat": 55.227447,
 "lng": 21.701841,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Tripletas|Mažeikių r. sav.|Mažeikiai, Sedos g. 16, 89233": {
 "lat": 56.305283,
 "lng": 22.342488,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Tumasa|Mažeikių r. sav.|Židikai, Mažeikių g. 10, 89442": {
-"lat": 56.31764,
-"lng": 22.013597,
+"lat": 56.322634,
+"lng": 22.014744,
 "o": 1,
-"q": "adresas",
+"q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Utentra|Utenos r. sav.|Utena, Pramonės g. 16, 28119": {
 "lat": 55.487578,
@@ -4254,624 +5002,775 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB VIRŠI Lietuva|Marijampolės sav.|Pasūduonės k., L.Taunio g. 3, 69331": {
 "lat": 54.475795,
 "lng": 23.221689,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB VVARFF|Plungės r. sav.|Truikių k., Pramogų g. 4, 90110": {
 "lat": 55.938804,
 "lng": 21.880146,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Valdegra|Marijampolės sav.|Igliauka, Prienų g. 7, 69117": {
 "lat": 54.557823,
 "lng": 23.656292,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Velseka|Kupiškio r. sav.|Kupiškis, Panevėžio g. 5, 40134": {
 "lat": 55.82737,
 "lng": 24.98562,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Alytaus m. sav.|Alytus, Naujoji g. 27, 62175": {
 "lat": 54.414022,
 "lng": 24.010181,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Alytaus m. sav.|Alytus, Ulonų g. 33B, 62136": {
 "lat": 54.384753,
 "lng": 24.049992,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Alytaus r. sav.|Daugų k., Neveiglo g. 25, 64144": {
 "lat": 54.366853,
 "lng": 24.33756,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Anykščių r. sav.|Anykščiai, A. Vienuolio g. 34, 29148": {
 "lat": 55.522041,
 "lng": 25.086365,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Anykščių r. sav.|Anykščiai, Piliakalnio g. 9, 29109": {
 "lat": 55.541326,
 "lng": 25.134941,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Biržų r. sav.|Biržai, Parodos g. 2, 41136": {
 "lat": 56.20133,
 "lng": 24.749022,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Biržų r. sav.|Biržai, Pasvalio g. 1B, 41132": {
 "lat": 56.201931,
 "lng": 24.737796,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Elektrėnų sav.|Elektrėnai, Elektrinės g. 6, 26109": {
 "lat": 54.784549,
 "lng": 24.654228,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Elektrėnų sav.|Vievis, Kauno g. 26A, 21376": {
 "lat": 54.77115,
 "lng": 24.820983,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Ignalinos r. sav.|Ignalina, Turistų g. 28A, 30138": {
 "lat": 55.338893,
 "lng": 26.145512,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Jonavos r. sav.|Jonava, Darbininkų g. 4D, 55101": {
 "lat": 55.093725,
 "lng": 24.282756,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Joniškio r. sav.|Joniškis, Vilniaus g. 51, 84166": {
 "lat": 56.224623,
 "lng": 23.601098,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kaišiadorių r. sav.|Kaišiadorys, Gedimino g. 135, 56173": {
 "lat": 54.855087,
 "lng": 24.441726,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kalvarijos sav.|Kalvarija, Dariaus ir Girėno g. 81, 69206": {
 "lat": 54.424452,
 "lng": 23.23195,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kalvarijos sav.|Pelucmurgių k., Muitinės g. 35, 69270": {
 "lat": 54.339851,
 "lng": 23.163063,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Kauno m. sav.|Kaunas, A. Juozapavičiaus pr. 90, 45267": {
 "lat": 54.878741,
 "lng": 23.934306,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kauno m. sav.|Kaunas, Ateities pl. 105, 52119": {
 "lat": 54.9272,
 "lng": 24.043042,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kauno m. sav.|Kaunas, Ateities pl. 37A, 52119": {
 "lat": 54.918224,
 "lng": 24.039668,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kauno m. sav.|Kaunas, Baltijos g. 90B, 47130": {
 "lat": 54.918009,
 "lng": 23.873666,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kauno m. sav.|Kaunas, Biruliškių g. 18A, 51205": {
 "lat": 54.911403,
 "lng": 24.021052,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kauno m. sav.|Kaunas, Didžioji g. 84, 45462": {
 "lat": 54.855105,
 "lng": 24.013123,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kauno m. sav.|Kaunas, Islandijos pl. 61A, 49117": {
 "lat": 54.933454,
 "lng": 23.968372,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kauno m. sav.|Kaunas, K. Baršausko g. 64, 44405": {
 "lat": 54.897553,
 "lng": 23.95835,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kauno m. sav.|Kaunas, Karaliaus Mindaugo pr. 54, 44351": {
 "lat": 54.887534,
 "lng": 23.921144,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kauno m. sav.|Kaunas, Marijampolės pl. 29, 45438": {
 "lat": 54.849519,
 "lng": 23.967095,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kauno m. sav.|Kaunas, Miežėnų g. 18, 47115": {
 "lat": 54.917685,
 "lng": 23.863066,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kauno m. sav.|Kaunas, P. Lukšio g. 66A, 49404": {
 "lat": 54.924924,
 "lng": 23.942323,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kauno m. sav.|Kaunas, Pramonės pr. 44, 50302": {
 "lat": 54.927221,
 "lng": 23.974786,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kauno m. sav.|Kaunas, Raudondvario pl. 288, 47164": {
 "lat": 54.921391,
 "lng": 23.810536,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kauno m. sav.|Kaunas, Statybininkų g. 3A, 50124": {
 "lat": 54.92009,
 "lng": 23.94876,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kauno m. sav.|Kaunas, T. Masiulio g. 22B, 52447": {
 "lat": 54.880912,
 "lng": 24.009787,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kauno m. sav.|Kaunas, Veiverių g. 117, 46354": {
 "lat": 54.866449,
 "lng": 23.889465,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kauno m. sav.|Kaunas, Veiverių g. 124B, 46282": {
 "lat": 54.883335,
 "lng": 23.893643,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kauno r. sav.|Giraitės k., Automagistralės g. 4, 54310": {
 "lat": 54.959108,
 "lng": 23.864258,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Kauno r. sav.|Ilgakiemio k., Prienų g. 22,": {
 "lat": 54.774143,
 "lng": 23.889616,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Kauno r. sav.|Kampiškių k., Baltijos g. 41, 09300": {
 "lat": 54.842546,
 "lng": 23.849681,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Kauno r. sav.|Kumpių k., Verslo g. 13A, 54311": {
 "lat": 54.959125,
 "lng": 23.866828,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Kauno r. sav.|Margavos k., 54471": {
 "lat": 54.955324,
 "lng": 23.954591,
 "o": 1,
-"q": "adresas",
+"q": "gatve",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Kauno r. sav.|Zapyškis, Vytauto g. 20A, 53419": {
 "lat": 54.927106,
 "lng": 23.661977,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kazlų Rūdos sav.|Ąžuolų Būdos k.": {
 "lat": 54.698111,
 "lng": 23.517356,
 "q": "osm-degaline",
+"src": "gyvenviete",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Klaipėdos m. sav.|Klaipėda, Liepojos g. 242, 92330": {
 "lat": 55.753881,
 "lng": 21.131339,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Klaipėdos m. sav.|Klaipėda, Nemuno g. 139, 93185": {
 "lat": 55.675197,
 "lng": 21.153034,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Klaipėdos m. sav.|Klaipėda, Priestočio g. 28, 92191": {
 "lat": 55.719216,
 "lng": 21.141137,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Klaipėdos m. sav.|Klaipėda, Taikos pr. 70A-1, 93202": {
 "lat": 55.683219,
 "lng": 21.160446,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Klaipėdos m. sav.|Klaipėda, Šilutės pl. 52, 94181": {
 "lat": 55.681738,
 "lng": 21.185178,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Klaipėdos r. sav.|Gargždai, Vilniaus pl. 65, 96173": {
 "lat": 55.732169,
 "lng": 21.376195,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Klaipėdos r. sav.|Kretingalė, Klaipėdos g. 1A, 96332": {
 "lat": 55.827525,
 "lng": 21.184985,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Klaipėdos r. sav.|Sudmantų k., Vilniaus pl. 6": {
 "lat": 55.704439,
 "lng": 21.221613,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Kretingos r. sav.|Kretinga, Vytauto g. 163, 97133": {
 "lat": 55.890571,
 "lng": 21.278271,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kretingos r. sav.|Kretingsodžio k., 97100": {
 "lat": 55.89594,
 "lng": 21.221398,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Kupiškio r. sav.|Kerelių k. 1A, 40473": {
 "lat": 55.856539,
 "lng": 25.173533,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Kupiškio r. sav.|Kupiškis, Pergalės g. 15, 40109": {
 "lat": 55.844573,
 "lng": 24.978987,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kėdainių r. sav.|Dotnuva, Tilto g. 2A, 58352": {
 "lat": 55.374734,
 "lng": 23.880805,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Kėdainių r. sav.|Gudžiūnų k., Baisogalos g. 5, 58267": {
 "lat": 55.518728,
 "lng": 23.773585,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Lazdijų r. sav.|Lazdijai, Turistų g. 32, 67102": {
-"lat": 54.228866,
-"lng": 23.528273,
-"q": "osm-degaline",
-"t": "2026-11-15"
+"lat": 54.22359,
+"lng": 23.516188,
+"o": 1,
+"q": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Marijampolės sav.|Marijampolė, Geležinkelio g. 5, 68305": {
 "lat": 54.554367,
 "lng": 23.362362,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Marijampolės sav.|Marijampolė, J. Ambrazevičiaus-Brazaičio g. 2, 68161": {
 "lat": 54.567757,
 "lng": 23.339328,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Mažeikių r. sav.|Mažeikiai, Montuotojų g. 2A, 89101": {
 "lat": 56.315902,
 "lng": 22.302462,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Mažeikių r. sav.|Mažeikiai, Žemaitijos g. 75, 89132": {
 "lat": 56.300407,
 "lng": 22.36067,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Molėtų r. sav.|Gojaus k., Utenos g. 16, 33165": {
 "lat": 55.214652,
 "lng": 25.437988,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Molėtų r. sav.|Molėtai, Vilniaus g. 101, 33112": {
 "lat": 55.223927,
 "lng": 25.405282,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Pakruojo r. sav.|Pakruojis, Vytauto Didžiojo g. 98, 83162": {
 "lat": 55.980452,
 "lng": 23.857986,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Panevėžio m. sav.|Panevėžys, J. Janonio g. 28A, 35101": {
 "lat": 55.738859,
 "lng": 24.310136,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Panevėžio m. sav.|Panevėžys, Navadolio g. 31, 36252": {
 "lat": 55.714396,
 "lng": 24.335409,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Panevėžio m. sav.|Panevėžys, Pušaloto g. 193A, 191A": {
 "lat": 55.753172,
 "lng": 24.312038,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Panevėžio m. sav.|Panevėžys, Ramygalos g. 155, 36224": {
 "lat": 55.704051,
 "lng": 24.381162,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Panevėžio m. sav.|Panevėžys, Ramygalos g. 186G, 36224": {
 "lat": 55.70908,
 "lng": 24.373359,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Panevėžio m. sav.|Panevėžys, Senamiesčio g. 116A, 35115": {
 "lat": 55.748582,
 "lng": 24.393264,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Panevėžio m. sav.|Panevėžys, Venslaviškio g. 16, 35116": {
 "lat": 55.736851,
 "lng": 24.387186,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Viada LT|Panevėžio r. sav.|Krekenava, Tilto g. 35, 38305": {
 "lat": 55.541523,
 "lng": 24.108001,
 "q": "osm-degaline",
+"src": "gyvenviete",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Panevėžio r. sav.|Ramygala, Vienkiemio g. 1B, 38262": {
 "lat": 55.521162,
 "lng": 24.312649,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Panevėžio r. sav.|Tičkūnų k., Tičkūnų g. 31, 38410": {
 "lat": 55.778835,
 "lng": 24.3648,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Panevėžio r. sav.|Šilagalio k., Panevėžio aplinkl. 5, 36258": {
 "lat": 55.670128,
 "lng": 24.349806,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Pasvalio r. sav.|Brazdigalos k. 1, 39198": {
 "lat": 56.042187,
 "lng": 24.378198,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Pasvalio r. sav.|Pasvalys, Vilniaus g. 50, 39177": {
 "lat": 56.055938,
 "lng": 24.407185,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Plungės r. sav.|Plungė, J. Tumo-Vaižganto g. 102, 90160": {
 "lat": 55.903078,
 "lng": 21.830166,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Plungės r. sav.|Plungė, Žaltakalnio g. 10, 90158": {
 "lat": 55.898292,
 "lng": 21.839864,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Prienų r. sav.|Grigaliūnų k. 11, 59281": {
 "lat": 54.713907,
 "lng": 23.649805,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Prienų r. sav.|Mačiūnų k., Kauno pl. 40, 59157": {
 "lat": 54.658989,
 "lng": 23.947042,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Raseinių r. sav.|Vejukų k. 5, 60345": {
 "lat": 55.386705,
 "lng": 22.901343,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Rokiškio r. sav.|Rokiškis, Panevėžio g. 5, 42163": {
 "lat": 55.944428,
 "lng": 25.585563,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Rokiškio r. sav.|Rokiškis, Žemaitės g. 2C, 42164": {
 "lat": 55.934183,
 "lng": 25.585699,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Skuodo r. sav.|Skuodas, Vilniaus g. 50, 98119": {
 "lat": 56.27001,
 "lng": 21.547148,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Tauragės r. sav.|Tauragė, Dariaus ir Girėno g. 138, 72194": {
 "lat": 55.266503,
 "lng": 22.311546,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Tauragės r. sav.|Tauragė, Pramonės g. 1, 72338": {
 "lat": 55.240813,
 "lng": 22.30533,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Telšių r. sav.|Telšiai, Pramonės g. 2A, 87101": {
 "lat": 55.993197,
 "lng": 22.240245,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Trakų r. sav.|Aukštųjų Semeniukų k., Logistikos g. 9, 21401": {
 "lat": 54.70171,
 "lng": 25.009811,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Ukmergės r. sav.|Dukstynos k., Vytauto g. 131, 20186": {
 "lat": 55.26912,
 "lng": 24.810119,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Ukmergės r. sav.|Ukmergė, Žiedo g. 15, 20127": {
 "lat": 55.246189,
 "lng": 24.743188,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Ukmergės r. sav.|Šventupės k., Beržų g. 13, 20360": {
 "lat": 55.320288,
 "lng": 24.874658,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Utenos r. sav.|Gediminas, Vyturio g. 2, 28126": {
 "lat": 55.477828,
 "lng": 25.581565,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Utenos r. sav.|Utena, Metalo g. 8, 28216": {
 "lat": 55.497002,
 "lng": 25.630778,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Utenos r. sav.|Utena, Pramonės g. 23, 28124": {
 "lat": 55.478005,
@@ -4879,238 +5778,271 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Varėnos r. sav.|Valkininkai, Vilniaus g. 6, 65438": {
 "lat": 54.364644,
 "lng": 24.837273,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Vilkaviškio r. sav.|Vilkaviškis, Vytauto g. 105, 70118": {
 "lat": 54.647623,
 "lng": 23.029248,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Vilniaus m. sav.|Vilnius, Ateities g. 17B, 06326": {
 "lat": 54.735756,
 "lng": 25.258461,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Vilniaus m. sav.|Vilnius, Dariaus ir Girėno g. 30A, 02169": {
 "lat": 54.652953,
 "lng": 25.272204,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Vilniaus m. sav.|Vilnius, Gariūnų g. 16A, 21401": {
 "lat": 54.667353,
 "lng": 25.173843,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Vilniaus m. sav.|Vilnius, Grigiškės, Kovo 11-osios g. 75, 27119": {
 "lat": 54.669178,
 "lng": 25.104868,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Vilniaus m. sav.|Vilnius, Justiniškių g. 12, 05131": {
 "lat": 54.702556,
 "lng": 25.21902,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Vilniaus m. sav.|Vilnius, Kirtimų g. 29, 02244": {
 "lat": 54.633296,
 "lng": 25.150729,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Vilniaus m. sav.|Vilnius, Laisvės pr. 8, 04133": {
 "lat": 54.674226,
 "lng": 25.222726,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Vilniaus m. sav.|Vilnius, Liepkalnio g. 128A, 02121": {
 "lat": 54.647521,
 "lng": 25.304071,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Vilniaus m. sav.|Vilnius, Naugarduko g. 74, 03203": {
 "lat": 54.671123,
 "lng": 25.262349,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Vilniaus m. sav.|Vilnius, Nemenčinės pl. 5, 10222": {
 "lat": 54.72635,
 "lng": 25.326577,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Vilniaus m. sav.|Vilnius, Olandų g. 57, 01205": {
 "lat": 54.681932,
 "lng": 25.314007,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Vilniaus m. sav.|Vilnius, Ozo g. 12, 08311": {
 "lat": 54.713792,
 "lng": 25.277078,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Vilniaus m. sav.|Vilnius, Pilaitės pr. 13, 06264": {
 "lat": 54.703039,
 "lng": 25.204132,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Vilniaus m. sav.|Vilnius, Pilaitės pr. 28, 06264": {
 "lat": 54.701339,
 "lng": 25.203954,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Vilniaus m. sav.|Vilnius, Saltoniškių g. 12, 08105": {
 "lat": 54.699246,
 "lng": 25.260196,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Vilniaus m. sav.|Vilnius, Sodų g. 22, 03211": {
 "lat": 54.669561,
 "lng": 25.279054,
 "q": "osm-degaline",
+"src": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Vilniaus m. sav.|Vilnius, Verkių g. 52, 09109": {
 "lat": 54.721544,
 "lng": 25.294982,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Vilniaus m. sav.|Vilnius, Vilkpėdės g. 2, 03151": {
 "lat": 54.665014,
 "lng": 25.246407,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Vilniaus r. sav.|Avižienių k., Ožiarūčių g. 1A, 14185": {
 "lat": 54.764046,
 "lng": 25.19669,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Visagino sav.|Visaginas, Statybininkų g. 1, 31138": {
 "lat": 55.594585,
 "lng": 26.438715,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Visagino sav.|Visaginas, Taikos pr. 23B, 31107": {
 "lat": 55.594946,
 "lng": 26.456392,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Zarasų r. sav.|Juodalaukių k. 2, 32104": {
 "lat": 55.717808,
 "lng": 26.213746,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Šalčininkų r. sav.|Jašiūnai, Lydos g. 13, 17247": {
 "lat": 54.439594,
 "lng": 25.327344,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Šiaulių m. sav.|Šiauliai, Dubijos g. 1C,": {
 "lat": 55.926401,
 "lng": 23.307632,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Šiaulių m. sav.|Šiauliai, Gegužių g. 26, 78348": {
 "lat": 55.905255,
 "lng": 23.260333,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Šiaulių m. sav.|Šiauliai, J. Basanavičiaus g. 122A, 76161": {
 "lat": 55.954642,
 "lng": 23.316203,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Šiaulių m. sav.|Šiauliai, Tilžės g. 274, 76201": {
 "lat": 55.944112,
 "lng": 23.331404,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Šiaulių m. sav.|Šiauliai, Užmiesčio g. 2, 76273": {
 "lat": 55.922503,
 "lng": 23.357955,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Šiaulių r. sav.|Aukštelkės k., Ilgoji g. 1, 80184": {
 "lat": 55.881845,
 "lng": 23.205267,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Šiaulių r. sav.|Kuršėnai, Vilniaus g. 38A, 81136": {
 "lat": 55.999879,
 "lng": 22.947656,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Šiaulių r. sav.|Kužiai, Draugystės g. 2, 80260": {
 "lat": 55.979091,
 "lng": 23.136226,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Šilalės r. sav.|Kuodaičių k., 75101": {
 "lat": 55.515294,
@@ -5118,70 +6050,79 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Šilutės r. sav.|Šilutė, Tilžės g. 59, 99168": {
 "lat": 55.342868,
 "lng": 21.496699,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Širvintų r. sav.|Širvintos, Plento g. 4, 19117": {
 "lat": 55.045839,
 "lng": 24.942732,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Švenčionių r. sav.|Kaltanėnai, Utenos g. 1, 18239": {
 "lat": 55.255114,
 "lng": 25.990569,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Švenčionių r. sav.|Pabradė, Vilniaus g. 116B, 18177": {
 "lat": 54.975105,
 "lng": 25.744883,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Švenčionių r. sav.|Švenčionys, Vilniaus g. 50A, 18123": {
 "lat": 55.125445,
 "lng": 26.145335,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Viada LT|Švenčionių r. sav.|Švenčionėliai, Žemutinė g. 51A, 18212": {
 "lat": 55.168504,
 "lng": 26.015165,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Vildega|Vilkaviškio r. sav.|Vilkaviškis, Vytauto g. 2D, 70137": {
 "lat": 54.64334,
 "lng": 23.053086,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Vimijula|Jonavos r. sav.|Ručiūnų k., Kauno g. 2A, 55355": {
 "lat": 55.137823,
 "lng": 24.193392,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Visvilas|Mažeikių r. sav.|Tirkšlių k., Laukų g. 2C, 89330": {
 "lat": 56.258211,
 "lng": 22.309466,
 "q": "osm-degaline",
+"src": "zymes",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Vlantana|Klaipėdos r. sav.|Gobergiškės k., Dvaro g. 1, 92498": {
 "lat": 55.711432,
@@ -5189,18 +6130,22 @@
 "o": 1,
 "q": "pasto-kodas",
 "t": "2026-11-15",
-"v": 2
+"v": 3
 },
 "UAB Šventosios investicijos|Palangos m. sav.|Palanga (Šventoji), Elijos g. 26, 00319": {
 "lat": 56.01288,
 "lng": 21.103715,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "zymes",
+"t": "2026-11-15",
+"v": 3
 },
 "UAB Žibalas|Jonavos r. sav.|Jonava, Taurostos g. 16A, 55195": {
 "lat": 55.072068,
 "lng": 24.294842,
 "q": "osm-degaline",
-"t": "2026-11-15"
+"src": "pasto-kodas",
+"t": "2026-11-15",
+"v": 3
 }
 }
