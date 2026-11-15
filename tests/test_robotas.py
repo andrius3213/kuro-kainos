@@ -138,12 +138,13 @@ def test_geocoder_postcode_fallback_and_retries():
 
 
 def test_old_version_misses_are_retried_now():
-    old = {KEY: {"q": "none", "t": "2026-11-15"}, "x|y|z": {"q": "osm-degaline", "lat": 1, "lng": 1, "t": "2026-11-15", "v": 2}}
+    old = {KEY: {"q": "none", "t": "2026-11-15"}, "x|y|z": {"q": "osm-degaline", "lat": 1, "lng": 1, "t": "2026-11-15", "v": 2},
+           "k|e|pt": {"q": "osm-degaline", "src": "zymes", "lat": 1, "lng": 1, "t": "2026-11-15", "v": 3}}
     net = FakeNet(nominatim={"Vilnius, Savanorių pr. 118, LT-03153": (54.6615, 25.2350)})
     g = R.Geocoder(old, net, sleep=lambda s: None, today=dt.date(2026, 11, 16))
     assert g.locate(ST)["q"] == "adresas"
     assert not g.needs_lookup({"q": "none", "t": "2026-11-16", "v": R.GEO_V})
-    assert g.needs_lookup(old["x|y|z"])
+    assert g.needs_lookup(old["x|y|z"]) and not g.needs_lookup(old["k|e|pt"])
 
 
 def test_tag_match_finds_station_without_search():
@@ -223,6 +224,23 @@ def test_street_level_hit_is_marked_approximate(xlsx):
     out = R.build_output(st, cache, max_date)
     row = next(r for r in out["s"] if out["N"][r[0]] == "Circle K")
     assert row[10] == 1 and row[3] == 54.67
+
+
+def test_snap_rejects_station_on_other_street():
+    post = {"address": {"municipality": "Vilniaus miesto savivaldybė"}, "place_rank": 21}
+    other = [{"type": "node", "lat": 54.662, "lon": 25.236, "tags": {"brand": "Circle K", "addr:street": "Gariūnų gatvė", "addr:housenumber": "55"}}]
+    same = [{"type": "node", "lat": 54.662, "lon": 25.236, "tags": {"brand": "Circle K", "addr:street": "Savanorių prospektas"}}]
+    nom = {"post:03153": (54.66, 25.235, post)}
+    g = R.Geocoder({}, FakeNet(nominatim=nom, fuel=other), sleep=lambda s: None)
+    assert g.locate(ST)["q"] == "pasto-kodas"
+    g = R.Geocoder({}, FakeNet(nominatim=nom, fuel=same), sleep=lambda s: None)
+    res = g.locate(ST)
+    assert res["q"] == "osm-degaline" and res["src"] == "pasto-kodas"
+    # miesto centras + to paties tinklo degalinė be gatvės žymės – nespėliojame
+    city = {"Vilnius, Vilniaus miesto savivaldybė": (54.66, 25.235, {"place_rank": 16, "address": {"city": "Vilniaus miesto savivaldybė"}})}
+    untagged = [{"type": "node", "lat": 54.662, "lon": 25.236, "tags": {"brand": "Circle K"}}]
+    g = R.Geocoder({}, FakeNet(nominatim=city, fuel=untagged), sleep=lambda s: None)
+    assert g.locate(ST)["q"] == "gyvenviete"
 
 
 def test_village_name_in_nominative():

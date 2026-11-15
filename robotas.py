@@ -35,7 +35,7 @@ USER_AGENT = "ManoGarazas-kuro-robotas/1.0 (+https://github.com/andrius3213/kuro
 FUELS = {"95 benzinas": 0, "dyzelinas": 1, "snd": 2}  # indeksai: 95, dyzelinas, dujos (LPG)
 KEEP_DAYS = 45          # degalinė įtraukiama, jei kainas teikė per paskutines N dienų
 RETRY_NONE_DAYS = 30    # nerastus adresus bandyti iš naujo po N dienų
-GEO_V = 3               # paieškos būdo versija: pakeitus būdą, nerasti adresai bandomi iš naujo
+GEO_V = 4               # paieškos būdo versija: pakeitus būdą, nerasti adresai bandomi iš naujo
 MIN_STATIONS = 300      # saugiklis: mažiau – tikriausiai sugedo failas
 
 BRANDS = {  # teisinis pavadinimas (be UAB/AB) -> trumpas, žinomas pavadinimas
@@ -300,11 +300,24 @@ class Geocoder:
             self._fuel_points = pts
         return self._fuel_points
 
-    def snap(self, lat: float, lng: float, brand: str, radius_km: float) -> tuple[float, float] | None:
+    def snap(self, lat: float, lng: float, brand: str, radius_km: float, a: dict | None = None,
+             need_street: bool = False) -> tuple[float, float] | None:
+        """Artimiausia to paties tinklo OSM degalinė. Jei OSM adresas prieštarauja LEA adresui – netinka."""
         words = [w for w in re.split(r"[^a-z0-9]+", fold(brand)) if len(w) >= 3]
+        street = key_word(a["street"]) if a else ""
+        hn = re.sub(r"\D", "", a["hn"]) if a else ""
         best, best_d, near, near_d = None, radius_km, None, 0.15
         for p in self.fuel_points():
             d = haversine((lat, lng), (p["lat"], p["lng"]))
+            if d > max(radius_km, near_d):
+                continue
+            same_street = bool(street) and same_name(street, p.get("street", ""))
+            if street and p.get("street") and not same_street:
+                continue  # kita gatvė
+            if same_street and hn and p.get("hn") and re.sub(r"\D", "", p["hn"]) != hn:
+                continue  # ta pati gatvė, kitas namas
+            if need_street and not same_street:
+                continue
             if d <= best_d and words and any(w in p["names"] for w in words):
                 best, best_d = p, d
             if d <= near_d:
@@ -364,7 +377,7 @@ class Geocoder:
     def needs_lookup(self, hit: dict | None) -> bool:
         if not hit:
             return True
-        if hit.get("v", 1) < GEO_V:
+        if hit.get("v", 1) < GEO_V and not (hit.get("src") == "zymes" and hit.get("v", 1) >= 3):
             return True  # senesnio, mažiau patikimo paieškos būdo rezultatas
         q = hit.get("q")
         if q in ("none", "savivaldybe"):
@@ -378,7 +391,9 @@ class Geocoder:
         t = self.today.isoformat()
         if hit and hit.get("v", 1) >= GEO_V and hit.get("q") in APPROX and not hit.get("o") and self.fuel_points():
             # nemokamas patikslinimas (be paieškos): vieta rasta tada, kai OSM degalinių sąrašo neturėjome
-            pt = self.tag_match(st) or self.snap(hit["lat"], hit["lng"], brand_name(st["company"]), APPROX[hit["q"]])
+            pa = parse_parts(st["addr"])
+            pt = self.tag_match(st) or self.snap(hit["lat"], hit["lng"], brand_name(st["company"]), APPROX[hit["q"]], pa,
+                                                 need_street=hit["q"] == "gyvenviete" and not pa["kind"])
             hit = ({"lat": pt[0], "lng": pt[1], "q": "osm-degaline", "t": t, "v": GEO_V} if pt
                    else dict(hit, v=GEO_V, o=1))
             self.cache[key] = hit
@@ -410,7 +425,9 @@ class Geocoder:
                 if quality == "adresas" and pt[2] < 29:  # rastas ne namas, o tik gatvė ar gyvenvietė
                     quality = "gatve" if pt[2] >= 26 else "gyvenviete"
                     radius = APPROX[quality]
-                snapped = self.snap(pt[0], pt[1], brand_name(st["company"]), radius)
+                # mieste vien „gyvenvietės“ tikslumo neužtenka – reikia, kad sutaptų ir gatvė
+                snapped = self.snap(pt[0], pt[1], brand_name(st["company"]), radius, a,
+                                    need_street=quality == "gyvenviete" and not a["kind"])
                 if snapped:
                     out = {"lat": snapped[0], "lng": snapped[1], "q": "osm-degaline", "t": t, "v": GEO_V, "src": quality}
                 else:
