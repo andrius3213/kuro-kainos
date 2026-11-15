@@ -51,7 +51,7 @@ jobs:
         env:
           TOKEN: ${{ github.token }}
         run: |
-          ls fuel.json geocache.json 2>/dev/null || { echo "Nėra ką skelbti"; exit 0; }
+          ls fuel.json geocache.json osm-degalines.json 2>/dev/null || { echo "Nėra ką skelbti"; exit 0; }
           cat > README.md <<'MD'
           # Kuro kainos (automatiškai)
 
@@ -61,7 +61,7 @@ jobs:
           MD
           git config user.name "kuro-robotas"
           git config user.email "kuro-robotas@users.noreply.github.com"
-          git add README.md $(ls fuel.json geocache.json 2>/dev/null)
+          git add README.md $(ls fuel.json geocache.json osm-degalines.json 2>/dev/null)
           if git diff --cached --quiet; then echo "Pakeitimų nėra"; exit 0; fi
           git commit -q -m "Kuro kainos $(date -u '+%F %H:%M') UTC"
           git push -q "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:data

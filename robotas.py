@@ -27,7 +27,9 @@ from typing import Callable, Iterable
 LEA_PAGE = "https://www.ena.lt/dk-pr-pr-duomenys/"
 NOMINATIM = "https://nominatim.openstreetmap.org/search"
 OVERPASS = "https://overpass-api.de/api/interpreter"
-OVERPASS_URLS = [OVERPASS, "https://overpass.private.coffee/api/interpreter"]
+OVERPASS_URLS = [OVERPASS, "https://overpass.private.coffee/api/interpreter",
+                 "https://maps.mail.ru/osm/tools/overpass/api/interpreter"]
+APPROX = {"adresas": 0.4, "pasto-kodas": 1.5, "gyvenviete": 2.5}  # km, kiek toli ieškoti to paties tinklo OSM degalinės
 USER_AGENT = "ManoGarazas-kuro-robotas/1.0 (+https://github.com/andrius3213/kuro-kainos)"
 
 FUELS = {"95 benzinas": 0, "dyzelinas": 1, "snd": 2}  # indeksai: 95, dyzelinas, dujos (LPG)
@@ -254,43 +256,48 @@ class Geocoder:
     artimiausios OpenStreetMap degalinės (amenity=fuel). Viskas įsimenama cache."""
 
     def __init__(self, cache: dict, fetch_json: Callable, sleep: Callable = time.sleep,
-                 today: dt.date | None = None, max_lookups: int = 900):
+                 today: dt.date | None = None, max_lookups: int = 900, points_file: Path | None = None,
+                 offline: bool = False):
         self.cache, self.fetch_json, self.sleep = cache, fetch_json, sleep
         self.today = today or dt.date.today()
         self.max_lookups, self.lookups, self.errors = max_lookups, 0, 0
-        self._fuel_points = None
+        self.points_file = Path(points_file) if points_file else None
+        self._fuel_points = [] if offline else None
 
     def fuel_points(self) -> list[dict]:
+        """Visos Lietuvos OSM degalinės. Jei Overpass neatsako – paskutinis sėkmingai gautas sąrašas iš failo."""
         if self._fuel_points is None:
-            q = ('[out:json][timeout:180];area["ISO3166-1"="LT"][admin_level=2]->.a;'
+            q = ('[out:json][timeout:90];area["ISO3166-1"="LT"][admin_level=2]->.a;'
                  '(node["amenity"="fuel"](area.a);way["amenity"="fuel"](area.a););out center tags;')
-            data = None
+            pts = []
             for url in OVERPASS_URLS:
                 try:
                     data = self.fetch_json(url, {"data": q}, post=True)
-                    break
+                    for e in data.get("elements", []):
+                        lat = e.get("lat", (e.get("center") or {}).get("lat"))
+                        lng = e.get("lon", (e.get("center") or {}).get("lon"))
+                        if lat is None or lng is None:
+                            continue
+                        t = e.get("tags", {})
+                        pts.append({"lat": lat, "lng": lng,
+                                    "names": fold(" ".join(t.get(k, "") for k in ("brand", "name", "operator"))),
+                                    "post": re.sub(r"\D", "", t.get("addr:postcode", ""))[-5:],
+                                    "street": key_word(t.get("addr:street", "") or t.get("addr:place", "")),
+                                    "hn": clean(t.get("addr:housenumber", "")).upper(),
+                                    "city": key_word(t.get("addr:city", "") or t.get("addr:place", ""))})
+                    if pts:
+                        break
                 except Exception as ex:
                     print(f"Įspėjimas: {url}: {ex}", file=sys.stderr)
-            try:
-                if data is None:
-                    raise RuntimeError("nė vienas Overpass serveris neatsakė")
-                pts = []
-                for e in data.get("elements", []):
-                    lat = e.get("lat", (e.get("center") or {}).get("lat"))
-                    lng = e.get("lon", (e.get("center") or {}).get("lon"))
-                    if lat is None or lng is None:
-                        continue
-                    t = e.get("tags", {})
-                    pts.append({"lat": lat, "lng": lng,
-                                "names": fold(" ".join(t.get(k, "") for k in ("brand", "name", "operator"))),
-                                "post": re.sub(r"\D", "", t.get("addr:postcode", ""))[-5:],
-                                "street": key_word(t.get("addr:street", "") or t.get("addr:place", "")),
-                                "hn": clean(t.get("addr:housenumber", "")).upper(),
-                                "city": key_word(t.get("addr:city", "") or t.get("addr:place", ""))})
-                self._fuel_points = pts
-            except Exception as ex:  # be jų irgi veikiame
-                print(f"Įspėjimas: nepavyko gauti OSM degalinių ({ex})", file=sys.stderr)
-                self._fuel_points = []
+            if pts and self.points_file:
+                self.points_file.parent.mkdir(parents=True, exist_ok=True)
+                self.points_file.write_text(json.dumps(pts, ensure_ascii=False, separators=(",", ":")), "utf-8")
+            elif not pts and self.points_file and self.points_file.exists():
+                pts = json.loads(self.points_file.read_text("utf-8"))
+                print(f"Įspėjimas: Overpass neatsakė – naudoju išsaugotą OSM degalinių sąrašą ({len(pts)})", file=sys.stderr)
+            elif not pts:
+                print("Įspėjimas: nepavyko gauti OSM degalinių – vietos bus patikslintos kitą kartą", file=sys.stderr)
+            self._fuel_points = pts
         return self._fuel_points
 
     def snap(self, lat: float, lng: float, brand: str, radius_km: float) -> tuple[float, float] | None:
@@ -356,10 +363,11 @@ class Geocoder:
         key = f"{st['company']}|{st['mun']}|{st['addr']}"
         hit = self.cache.get(key)
         t = self.today.isoformat()
-        if hit and hit.get("q") in ("adresas", "gyvenviete", "pasto-kodas") and hit.get("v", 1) < GEO_V:
-            exact = self.tag_match(st)  # nemokamas patikslinimas pagal OSM degalinių adresus
-            hit = ({"lat": exact[0], "lng": exact[1], "q": "osm-degaline", "t": t, "v": GEO_V} if exact
-                   else dict(hit, v=GEO_V))
+        if hit and hit.get("q") in APPROX and not hit.get("o") and self.fuel_points():
+            # nemokamas patikslinimas (be paieškos): vieta rasta tada, kai OSM degalinių sąrašo neturėjome
+            pt = self.tag_match(st) or self.snap(hit["lat"], hit["lng"], brand_name(st["company"]), APPROX[hit["q"]])
+            hit = ({"lat": pt[0], "lng": pt[1], "q": "osm-degaline", "t": t, "v": GEO_V} if pt
+                   else dict(hit, v=GEO_V, o=1))
             self.cache[key] = hit
         if not self.needs_lookup(hit):
             return hit
@@ -367,12 +375,13 @@ class Geocoder:
         if exact:
             self.cache[key] = {"lat": exact[0], "lng": exact[1], "q": "osm-degaline", "t": t, "v": GEO_V}
             return self.cache[key]
+        osm = {"o": 1} if self.fuel_points() else {}  # be „o“ – kitą kartą bus tikslinama
         street_all, post = split_address(st["addr"])
         a = parse_parts(st["addr"])
         mun = expand_mun(st["mun"])
         tries = [
             (f"{street_all}, LT-{post}" if post else street_all, "adresas", 0.4),
-            ({"postalcode": post} if post else None, "pasto-kodas", 3.0),
+            ({"postalcode": post} if post else None, "pasto-kodas", APPROX["pasto-kodas"]),
         ]
         if a["settl"]:
             name = nominative(a["settl"]) if a["kind"] else a["settl"]
@@ -389,7 +398,7 @@ class Geocoder:
                 if snapped:
                     out = {"lat": snapped[0], "lng": snapped[1], "q": "osm-degaline", "t": t, "v": GEO_V}
                 else:
-                    out = {"lat": round(pt[0], 6), "lng": round(pt[1], 6), "q": quality, "t": t, "v": GEO_V}
+                    out = {"lat": round(pt[0], 6), "lng": round(pt[1], 6), "q": quality, "t": t, "v": GEO_V, **osm}
                 break
         except LookupError:
             return hit or {"q": "pending"}
@@ -405,7 +414,7 @@ class Geocoder:
 
 def requests_fetch_json(session):
     def fetch(url, params, post=False):
-        r = (session.post(url, data=params, timeout=200) if post
+        r = (session.post(url, data=params, timeout=120) if post
              else session.get(url, params=params, timeout=60))
         r.raise_for_status()
         return r.json()
@@ -463,6 +472,7 @@ def main(argv: Iterable[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--out", default="out/fuel.json")
     ap.add_argument("--cache", default="out/geocache.json")
+    ap.add_argument("--osm", default=None, help="OSM degalinių sąrašo failas (numatyta – šalia --cache)")
     ap.add_argument("--xlsx", help="vietinis LEA failas (be atsisiuntimo)")
     ap.add_argument("--no-geo", action="store_true", help="neieškoti naujų koordinačių")
     ap.add_argument("--max-lookups", type=int, default=900)
@@ -488,7 +498,8 @@ def main(argv: Iterable[str] | None = None) -> int:
     cache_p, out_p = Path(a.cache), Path(a.out)
     cache = json.loads(cache_p.read_text("utf-8")) if cache_p.exists() else {}
     geo = Geocoder(cache, requests_fetch_json(session), today=today,
-                   max_lookups=0 if a.no_geo else a.max_lookups)
+                   max_lookups=0 if a.no_geo else a.max_lookups, offline=a.no_geo,
+                   points_file=Path(a.osm) if a.osm else cache_p.with_name("osm-degalines.json"))
     coords = {}
     for key, st in stations.items():
         coords[key] = geo.locate(st)

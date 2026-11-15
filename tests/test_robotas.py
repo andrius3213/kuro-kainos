@@ -123,7 +123,7 @@ def test_geocoder_postcode_fallback_and_retries():
     cache = {}
     g = R.Geocoder(cache, net, sleep=lambda s: None, today=dt.date(2026, 11, 15))
     res = g.locate(ST)
-    assert res["q"] == "pasto-kodas" and res["v"] == R.GEO_V
+    assert res["q"] == "pasto-kodas" and res["v"] == R.GEO_V and "o" not in res  # OSM sąrašo nebuvo
     st2 = dict(ST, addr="Niekur, Nėra g. 1, 00000", mun="")
     assert g.locate(st2)["q"] == "none"
     calls = len(net.calls)
@@ -164,15 +164,40 @@ def test_tag_match_finds_station_without_search():
     assert g.tag_match(st) is None
 
 
-def test_approx_hits_are_refined_once_for_free():
-    fuel = [{"type": "node", "lat": 54.6617, "lon": 25.2353, "tags": {"brand": "Circle K", "addr:postcode": "03153",
-                                                                    "addr:street": "Savanorių prospektas", "addr:housenumber": "118"}}]
-    cache = {KEY: {"q": "adresas", "lat": 54.66, "lng": 25.23, "t": "2026-11-15"}}
-    g = R.Geocoder(cache, FakeNet(fuel=fuel), sleep=lambda s: None)
-    assert g.locate(ST)["q"] == "osm-degaline" and g.lookups == 0
-    cache = {KEY: {"q": "adresas", "lat": 54.66, "lng": 25.23, "t": "2026-11-15"}}
+def test_approx_hits_are_refined_for_free_when_osm_available(tmp_path):
+    tagged = [{"type": "node", "lat": 54.6617, "lon": 25.2353, "tags": {"brand": "Circle K", "addr:postcode": "03153",
+                                                                      "addr:street": "Savanorių prospektas", "addr:housenumber": "118"}}]
+    untagged = [{"type": "node", "lat": 54.665, "lon": 25.236, "tags": {"brand": "Circle K"}}]
+    old = {"q": "pasto-kodas", "lat": 54.66, "lng": 25.23, "t": "2026-11-15", "v": 2}
+    for fuel, want in ((tagged, (54.6617, 25.2353)), (untagged, (54.665, 25.236))):
+        g = R.Geocoder({KEY: dict(old)}, FakeNet(fuel=fuel), sleep=lambda s: None)
+        res = g.locate(ST)
+        assert res["q"] == "osm-degaline" and (res["lat"], res["lng"]) == want and g.lookups == 0
+    # Overpass neveikia -> įrašas lieka „tikslintinas“
+    cache = {KEY: dict(old)}
     g = R.Geocoder(cache, FakeNet(), sleep=lambda s: None)
-    assert g.locate(ST) == {"q": "adresas", "lat": 54.66, "lng": 25.23, "t": "2026-11-15", "v": R.GEO_V}
+    assert g.locate(ST) == old and "o" not in cache[KEY]
+    # OSM yra, bet šalia nieko -> pažymima, kad daugiau nebetikslintų
+    far = [{"type": "node", "lat": 55.9, "lon": 21.1, "tags": {"brand": "Circle K"}}]
+    g = R.Geocoder(cache, FakeNet(fuel=far), sleep=lambda s: None)
+    assert g.locate(ST)["o"] == 1 and g.locate(ST)["q"] == "pasto-kodas"
+
+
+def test_osm_points_saved_and_reused_when_overpass_down(tmp_path):
+    f = tmp_path / "osm-degalines.json"
+    fuel = [{"type": "node", "lat": 54.6617, "lon": 25.2353, "tags": {"brand": "Circle K"}}]
+    g = R.Geocoder({}, FakeNet(fuel=fuel), sleep=lambda s: None, points_file=f)
+    assert len(g.fuel_points()) == 1 and f.exists()
+
+    class Down(FakeNet):
+        def __call__(self, url, params, post=False):
+            if post:
+                raise ConnectionError("502")
+            return super().__call__(url, params, post)
+    g = R.Geocoder({}, Down(), sleep=lambda s: None, points_file=f)
+    assert len(g.fuel_points()) == 1  # iš failo
+    g = R.Geocoder({}, Down(), sleep=lambda s: None, offline=True)
+    assert g.fuel_points() == []
 
 
 def test_village_name_in_nominative():
