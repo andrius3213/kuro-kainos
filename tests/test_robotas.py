@@ -97,7 +97,7 @@ class FakeNet:
             raise ConnectionError("tinklas neveikia")
         if url == R.OVERPASS:
             return {"elements": self.fuel}
-        hit = self.nominatim.get(params["q"])
+        hit = self.nominatim.get(params.get("q") or "post:" + params.get("postalcode", ""))
         return [{"lat": str(hit[0]), "lon": str(hit[1])}] if hit else []
 
 
@@ -118,11 +118,12 @@ def test_geocoder_snaps_to_matching_osm_station_and_caches():
     assert cache[KEY]["q"] == "osm-degaline"
 
 
-def test_geocoder_falls_back_and_retries_unknown_later():
-    net = FakeNet(nominatim={"Vilniaus m. sav.": (54.68, 25.28)})
+def test_geocoder_postcode_fallback_and_retries():
+    net = FakeNet(nominatim={"post:03153": (54.68, 25.23)})
     cache = {}
     g = R.Geocoder(cache, net, sleep=lambda s: None, today=dt.date(2026, 11, 15))
-    assert g.locate(ST)["q"] == "savivaldybe"
+    res = g.locate(ST)
+    assert res["q"] == "pasto-kodas" and res["v"] == R.GEO_V
     st2 = dict(ST, addr="Niekur, Nėra g. 1, 00000", mun="")
     assert g.locate(st2)["q"] == "none"
     calls = len(net.calls)
@@ -131,6 +132,68 @@ def test_geocoder_falls_back_and_retries_unknown_later():
     g2 = R.Geocoder(cache, net, sleep=lambda s: None, today=dt.date(2026, 12, 31))
     g2.locate(st2)
     assert len(net.calls) > calls  # po 30 d. bandoma vėl
+
+
+def test_old_version_misses_are_retried_now():
+    old = {KEY: {"q": "none", "t": "2026-11-15"}, "x|y|z": {"q": "savivaldybe", "lat": 1, "lng": 1, "t": "2026-11-15"}}
+    net = FakeNet(nominatim={"Vilnius, Savanorių pr. 118, LT-03153": (54.6615, 25.2350)})
+    g = R.Geocoder(old, net, sleep=lambda s: None, today=dt.date(2026, 11, 16))
+    assert g.locate(ST)["q"] == "adresas"
+    assert not g.needs_lookup({"q": "none", "t": "2026-11-16", "v": R.GEO_V})
+    assert g.needs_lookup(old["x|y|z"])
+
+
+def test_tag_match_finds_station_without_search():
+    fuel = [{"type": "node", "lat": 54.71, "lon": 24.40, "tags": {"brand": "Orlen", "addr:postcode": "LT-56232",
+                                                                  "addr:street": "Kauno plentas", "addr:housenumber": "6"}},
+            {"type": "node", "lat": 54.80, "lon": 24.50, "tags": {"brand": "Orlen", "addr:postcode": "56000"}}]
+    net = FakeNet(fuel=fuel)
+    g = R.Geocoder({}, net, sleep=lambda s: None)
+    st = {"company": "AB Orlen Baltics Retail", "mun": "Kaišiadorių r. sav.", "addr": "Žiežmarių k., Kauno pl. 6, 56232"}
+    res = g.locate(st)
+    assert res["q"] == "osm-degaline" and (res["lat"], res["lng"]) == (54.71, 24.40)
+    assert g.lookups == 0  # be Nominatim paieškos
+    # tik pašto kodas + tinklas (be namo nr. OSM žymėse)
+    fuel2 = [{"type": "node", "lat": 55.1, "lon": 23.9, "tags": {"name": "Apsaga", "addr:postcode": "84164"}}]
+    g = R.Geocoder({}, FakeNet(fuel=fuel2), sleep=lambda s: None)
+    st = {"company": "UAB Apsaga", "mun": "Joniškio r. sav.", "addr": "Radikių k., 13, 84164"}
+    assert g.locate(st)["q"] == "osm-degaline" and g.lookups == 0
+    # du vienodi kandidatai – nespėliojame
+    fuel3 = fuel2 + [{"type": "node", "lat": 55.2, "lon": 23.8, "tags": {"name": "Apsaga", "addr:postcode": "84164"}}]
+    g = R.Geocoder({}, FakeNet(fuel=fuel3), sleep=lambda s: None)
+    assert g.tag_match(st) is None
+
+
+def test_approx_hits_are_refined_once_for_free():
+    fuel = [{"type": "node", "lat": 54.6617, "lon": 25.2353, "tags": {"brand": "Circle K", "addr:postcode": "03153",
+                                                                    "addr:street": "Savanorių prospektas", "addr:housenumber": "118"}}]
+    cache = {KEY: {"q": "adresas", "lat": 54.66, "lng": 25.23, "t": "2026-11-15"}}
+    g = R.Geocoder(cache, FakeNet(fuel=fuel), sleep=lambda s: None)
+    assert g.locate(ST)["q"] == "osm-degaline" and g.lookups == 0
+    cache = {KEY: {"q": "adresas", "lat": 54.66, "lng": 25.23, "t": "2026-11-15"}}
+    g = R.Geocoder(cache, FakeNet(), sleep=lambda s: None)
+    assert g.locate(ST) == {"q": "adresas", "lat": 54.66, "lng": 25.23, "t": "2026-11-15", "v": R.GEO_V}
+
+
+def test_village_name_in_nominative():
+    net = FakeNet(nominatim={"Žiežmariai, Kaišiadorių rajono savivaldybė": (54.80, 24.45)})
+    g = R.Geocoder({}, net, sleep=lambda s: None)
+    st = {"company": "UAB Kažkas", "mun": "Kaišiadorių r. sav.", "addr": "Žiežmarių k., Kauno pl. 6, 56232"}
+    res = g.locate(st)
+    assert res["q"] == "gyvenviete" and res["lat"] == 54.8
+
+
+def test_address_helpers():
+    assert R.parse_parts("Žiežmarių k., Kauno pl. 6, 56232") == {"settl": "Žiežmarių", "kind": "k", "street": "Kauno pl.",
+                                                                 "hn": "6", "post": "56232"}
+    assert R.parse_parts("Radikių k., 13, 84164")["hn"] == "13"
+    assert R.parse_parts("Nekrūnų k. 1, 67171") == {"settl": "Nekrūnų", "kind": "k", "street": "", "hn": "1", "post": "67171"}
+    assert R.parse_parts("Pašakarnių k. Pašakarnių g. 1, 85271")["street"] == "Pašakarnių g."
+    assert R.parse_parts("Panevėžys, Klaipėdos g. 162 D, 37372")["hn"] == "162D"
+    assert R.nominative("Žiežmarių") == "Žiežmariai" and R.nominative("Valantiškio") == "Valantiškis"
+    assert R.expand_mun("Kaišiadorių r. sav.") == "Kaišiadorių rajono savivaldybė"
+    assert R.key_word("A. Goštauto g.") == "gostauto"
+    assert R.same_name("ziezmariu", "ziezmariai") and not R.same_name("kauno", "vilniaus")
 
 
 def test_geocoder_limits_and_network_errors():

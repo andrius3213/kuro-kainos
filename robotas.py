@@ -27,11 +27,13 @@ from typing import Callable, Iterable
 LEA_PAGE = "https://www.ena.lt/dk-pr-pr-duomenys/"
 NOMINATIM = "https://nominatim.openstreetmap.org/search"
 OVERPASS = "https://overpass-api.de/api/interpreter"
+OVERPASS_URLS = [OVERPASS, "https://overpass.private.coffee/api/interpreter"]
 USER_AGENT = "ManoGarazas-kuro-robotas/1.0 (+https://github.com/andrius3213/kuro-kainos)"
 
 FUELS = {"95 benzinas": 0, "dyzelinas": 1, "snd": 2}  # indeksai: 95, dyzelinas, dujos (LPG)
 KEEP_DAYS = 45          # degalinė įtraukiama, jei kainas teikė per paskutines N dienų
 RETRY_NONE_DAYS = 30    # nerastus adresus bandyti iš naujo po N dienų
+GEO_V = 2               # paieškos būdo versija: pakeitus būdą, nerasti adresai bandomi iš naujo
 MIN_STATIONS = 300      # saugiklis: mažiau – tikriausiai sugedo failas
 
 BRANDS = {  # teisinis pavadinimas (be UAB/AB) -> trumpas, žinomas pavadinimas
@@ -95,6 +97,66 @@ def parse_date(v) -> dt.date | None:
         return dt.date(1899, 12, 30) + dt.timedelta(days=int(v))
     m = re.search(r"(\d{4})[-./](\d{1,2})[-./](\d{1,2})", clean(v))
     return dt.date(int(m[1]), int(m[2]), int(m[3])) if m else None
+
+
+ABBR = [(r"\bg\.", "gatvė"), (r"\bpl\.", "plentas"), (r"\bpr\.", "prospektas"), (r"\bal\.", "alėja"),
+        (r"\bskg\.", "skersgatvis"), (r"\btak\.", "takas"), (r"\bkel\.", "kelias")]
+
+
+def expand_mun(mun: str) -> str:
+    """„Kaišiadorių r. sav.“ -> „Kaišiadorių rajono savivaldybė“."""
+    m = clean(mun)
+    m = re.sub(r"\br\.\s*sav\.?$", "rajono savivaldybė", m)
+    m = re.sub(r"\bm\.\s*sav\.?$", "miesto savivaldybė", m)
+    return re.sub(r"\bsav\.?$", "savivaldybė", m)
+
+
+def nominative(gen: str) -> str:
+    """Kaimo pavadinimas iš kilmininko į vardininką (dažniausi atvejai):
+    „Žiežmarių“ -> „Žiežmariai“, „Jakų“ -> „Jakai“, „Valantiškio“ -> „Valantiškis“."""
+    w = clean(gen)
+    for end, rep in (("ių", "iai"), ("ų", "ai"), ("io", "is"), ("ės", "ė"), ("os", "a")):
+        if w.endswith(end):
+            return w[: -len(end)] + rep
+    return w
+
+
+def parse_parts(addr: str) -> dict:
+    """„Žiežmarių k., Kauno pl. 6, 56232“ -> gyvenvietė, gatvė, namo nr., pašto kodas."""
+    street_all, post = split_address(addr)
+    street_all = re.sub(r"(\s(?:k|km|vs|mstl)\.)\s+(?=[^,\s])", r"\1, ", street_all)  # „Nekrūnų k. 1“
+    parts = [p.strip() for p in street_all.split(",") if p.strip()]
+    settl, street, hn = "", "", ""
+    for p in parts:
+        m = re.search(r"(?:^|\s)(\d+(?:\s?[A-Za-z])?)(?:\s*[-/]\s*\d+[A-Za-z]?)?$", p)
+        if m and not street and not hn:
+            hn = m.group(1).replace(" ", "").upper()
+            street = p[: m.start()].strip()
+        elif not settl:
+            settl = p
+    kind = ""
+    m = re.search(r"\s+(k|km|vs|mstl|gyv)\.?$", settl)
+    if m:
+        kind, settl = m.group(1), settl[: m.start()].strip()
+    return {"settl": settl, "kind": kind, "street": street, "hn": hn, "post": post}
+
+
+STOP = {"g", "pl", "pr", "al", "gatve", "plentas", "prospektas", "aleja", "k", "km", "vs", "kel", "kelias",
+        "skg", "skersgatvis", "tak", "takas", "mstl", "miestelis", "kaimas", "gyv", "sen"}
+
+
+def key_word(s: str) -> str:
+    """Ilgiausias pavadinimo žodis be sutrumpinimų: „A. Goštauto g.“ -> „gostauto“."""
+    words = [w for w in re.findall(r"[a-z]+", fold(s)) if w not in STOP and len(w) > 1]
+    return max(words, key=len) if words else ""
+
+
+def same_name(a: str, b: str) -> bool:
+    """Tas pats pavadinimas skirtingais linksniais: „ziezmariu“ ~ „ziezmariai“, „jaku“ ~ „jakai“."""
+    if not a or not b or abs(len(a) - len(b)) > 3:
+        return False
+    n = max(3, min(len(a), len(b)) - 2)
+    return a[:n] == b[:n]
 
 
 def haversine(a: tuple[float, float], b: tuple[float, float]) -> float:
@@ -202,8 +264,16 @@ class Geocoder:
         if self._fuel_points is None:
             q = ('[out:json][timeout:180];area["ISO3166-1"="LT"][admin_level=2]->.a;'
                  '(node["amenity"="fuel"](area.a);way["amenity"="fuel"](area.a););out center tags;')
+            data = None
+            for url in OVERPASS_URLS:
+                try:
+                    data = self.fetch_json(url, {"data": q}, post=True)
+                    break
+                except Exception as ex:
+                    print(f"Įspėjimas: {url}: {ex}", file=sys.stderr)
             try:
-                data = self.fetch_json(OVERPASS, {"data": q}, post=True)
+                if data is None:
+                    raise RuntimeError("nė vienas Overpass serveris neatsakė")
                 pts = []
                 for e in data.get("elements", []):
                     lat = e.get("lat", (e.get("center") or {}).get("lat"))
@@ -212,7 +282,11 @@ class Geocoder:
                         continue
                     t = e.get("tags", {})
                     pts.append({"lat": lat, "lng": lng,
-                                "names": fold(" ".join(t.get(k, "") for k in ("brand", "name", "operator")))})
+                                "names": fold(" ".join(t.get(k, "") for k in ("brand", "name", "operator"))),
+                                "post": re.sub(r"\D", "", t.get("addr:postcode", ""))[-5:],
+                                "street": key_word(t.get("addr:street", "") or t.get("addr:place", "")),
+                                "hn": clean(t.get("addr:housenumber", "")).upper(),
+                                "city": key_word(t.get("addr:city", "") or t.get("addr:place", ""))})
                 self._fuel_points = pts
             except Exception as ex:  # be jų irgi veikiame
                 print(f"Įspėjimas: nepavyko gauti OSM degalinių ({ex})", file=sys.stderr)
@@ -231,30 +305,79 @@ class Geocoder:
         p = best or (near if radius_km <= 0.5 else None)
         return (round(p["lat"], 6), round(p["lng"], 6)) if p else None
 
-    def nominatim(self, q: str):
+    def tag_match(self, st: dict) -> tuple[float, float] | None:
+        """Degalinė surandama tiesiai OSM duomenyse pagal pašto kodą / gatvę ir namo nr. (be paieškos)."""
+        a = parse_parts(st["addr"])
+        words = [w for w in re.split(r"[^a-z0-9]+", fold(brand_name(st["company"]))) if len(w) >= 3]
+        street = key_word(a["street"] or a["settl"])
+        settl = key_word(a["settl"])
+        best, best_score, tie = None, 0, False
+        for p in self.fuel_points():
+            brand = bool(words) and any(w in p["names"] for w in words)
+            post = bool(a["post"]) and p["post"] == a["post"]
+            addr = bool(a["hn"]) and p["hn"] == a["hn"] and same_name(street, p["street"])
+            place = same_name(settl, p["city"]) or (not a["street"] and same_name(settl, p["street"]))
+            if addr and (post or place):
+                score = 4 + brand
+            elif post and brand:
+                score = 3 if (not a["hn"] or not p["hn"] or p["hn"] == a["hn"]) else 0
+            else:
+                score = 0
+            if score > best_score:
+                best, best_score, tie = p, score, False
+            elif score and score == best_score:
+                tie = True
+        if best and not tie:
+            return round(best["lat"], 6), round(best["lng"], 6)
+        return None
+
+    def nominatim(self, params) -> tuple[float, float] | None:
         if self.lookups >= self.max_lookups:
             raise LookupError("viršytas paieškų skaičius šiam paleidimui")
         self.lookups += 1
-        res = self.fetch_json(NOMINATIM, {"q": q, "format": "jsonv2", "countrycodes": "lt", "limit": 1})
+        q = {"q": params} if isinstance(params, str) else dict(params)
+        q.update({"format": "jsonv2", "countrycodes": "lt", "limit": 1})
+        res = self.fetch_json(NOMINATIM, q)
         self.sleep(1.1)  # Nominatim taisyklė: ne daugiau kaip 1 užklausa per sekundę
         return (float(res[0]["lat"]), float(res[0]["lon"])) if res else None
+
+    def needs_lookup(self, hit: dict | None) -> bool:
+        if not hit:
+            return True
+        q = hit.get("q")
+        if q in ("none", "savivaldybe"):
+            if hit.get("v", 1) < GEO_V:
+                return True
+            age = (self.today - dt.date.fromisoformat(hit.get("t", "2000-01-01"))).days
+            return age >= RETRY_NONE_DAYS
+        return False
 
     def locate(self, st: dict) -> dict:
         key = f"{st['company']}|{st['mun']}|{st['addr']}"
         hit = self.cache.get(key)
-        if hit and (hit.get("q") != "none" or
-                    (self.today - dt.date.fromisoformat(hit.get("t", "2000-01-01"))).days < RETRY_NONE_DAYS):
+        t = self.today.isoformat()
+        if hit and hit.get("q") in ("adresas", "gyvenviete", "pasto-kodas") and hit.get("v", 1) < GEO_V:
+            exact = self.tag_match(st)  # nemokamas patikslinimas pagal OSM degalinių adresus
+            hit = ({"lat": exact[0], "lng": exact[1], "q": "osm-degaline", "t": t, "v": GEO_V} if exact
+                   else dict(hit, v=GEO_V))
+            self.cache[key] = hit
+        if not self.needs_lookup(hit):
             return hit
-        street, post = split_address(st["addr"])
-        parts = [p.strip() for p in street.split(",") if p.strip()]
-        settl = [p for p in parts if not re.search(r"\d", p) or re.search(r"\b(k|km|vs)\.?$", p)]
+        exact = self.tag_match(st)
+        if exact:
+            self.cache[key] = {"lat": exact[0], "lng": exact[1], "q": "osm-degaline", "t": t, "v": GEO_V}
+            return self.cache[key]
+        street_all, post = split_address(st["addr"])
+        a = parse_parts(st["addr"])
+        mun = expand_mun(st["mun"])
         tries = [
-            (f"{street}, LT-{post}" if post else None, "adresas", 0.4),
-            (street, "adresas", 0.4),
-            (", ".join(settl + [st["mun"]]) if settl else None, "gyvenviete", 2.5),
-            (st["mun"] or None, "savivaldybe", 0),
+            (f"{street_all}, LT-{post}" if post else street_all, "adresas", 0.4),
+            ({"postalcode": post} if post else None, "pasto-kodas", 3.0),
         ]
-        out = {"q": "none", "t": self.today.isoformat()}
+        if a["settl"]:
+            name = nominative(a["settl"]) if a["kind"] else a["settl"]
+            tries.append((", ".join(x for x in (name, mun) if x), "gyvenviete", 2.5))
+        out = {"q": "none", "t": t, "v": GEO_V}
         try:
             for q, quality, radius in tries:
                 if not q:
@@ -262,11 +385,11 @@ class Geocoder:
                 pt = self.nominatim(q)
                 if not pt:
                     continue
-                snapped = self.snap(pt[0], pt[1], brand_name(st["company"]), radius) if radius else None
+                snapped = self.snap(pt[0], pt[1], brand_name(st["company"]), radius)
                 if snapped:
-                    out = {"lat": snapped[0], "lng": snapped[1], "q": "osm-degaline", "t": out["t"]}
+                    out = {"lat": snapped[0], "lng": snapped[1], "q": "osm-degaline", "t": t, "v": GEO_V}
                 else:
-                    out = {"lat": round(pt[0], 6), "lng": round(pt[1], 6), "q": quality, "t": out["t"]}
+                    out = {"lat": round(pt[0], 6), "lng": round(pt[1], 6), "q": quality, "t": t, "v": GEO_V}
                 break
         except LookupError:
             return hit or {"q": "pending"}
@@ -300,7 +423,7 @@ def build_output(stations: dict, coords: dict, max_date: dt.date,
         key = f"{s['company']}|{s['mun']}|{s['addr']}"
         g = coords.get(key) or {}
         lat, lng = g.get("lat"), g.get("lng")
-        approx = 1 if g.get("q") in ("gyvenviete", "savivaldybe") else 0
+        approx = 1 if g.get("q") in ("gyvenviete", "pasto-kodas", "savivaldybe") else 0
         if g.get("q") == "savivaldybe":
             lat = lng = None  # per netikslu atstumui skaičiuoti
         newest = max(d for _, d in s["prices"].values())
